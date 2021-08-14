@@ -4,32 +4,31 @@ from abc import ABC, abstractmethod
 from pattern import de
 
 
-class Article(ABC):
-    '''Methods declining article from the gender and case of a noun.'''
+class ConjArt(ABC):
+    '''Methods declining article, given the form (der/ein words), case (e.g., nominative), and gender of the noun.'''
 
+    @staticmethod
     @abstractmethod
-    def get_conjart(self, gender: str, case: str):
+    def get_conjart():
         pass
 
 
-class Pattern_Article(Article):
+class Pattern_ConjArt(ConjArt):
     '''Uses pattern package.'''
 
     @staticmethod
-    def get_conjart(gender: str, definite: str, case: str):
-        conjart = de.article('', function=definite, gender=gender, role=case)
+    def get_conjart(gender: str, form: str, case: str) -> str:
+        conjart = de.article('', function=form, gender=gender, role=case)
         return conjart
 
 
-class Lookup_Article(Article):
+class Lookup_ConjArt(ConjArt):
     '''Looks up article from a json file.'''
 
     def __init__(self, article_path: str = '../data/articles.json'):
         with open(article_path, 'r') as js:
             self.articles = json.load(js)
 
-    def get_conjart(self, gender: str, form: str, case: str):
-        conjart = self.articles.get(form, dict()).get(case, dict()).get(gender)
-        if not conjart:
-            return  # raise form, case, or gender does not exist in json file
+    def get_conjart(self, gender: str, form: str, case: str) -> str:
+        conjart = self.articles[form][case][gender]
         return conjart

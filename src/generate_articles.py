@@ -2,7 +2,7 @@ import json
 
 
 def create_articles_json():
-    '''Create hashmap of declined forms for der- and ein- words as a json file.'''
+    '''Create hashmap of declined forms for der- and ein- words as a json.'''
 
     # der/die/das irregular
     articles = {

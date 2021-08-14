@@ -248,4 +248,27 @@
 
 ## Deployment
 
+* GitHub
+
 ## Planning
+
+* Required
+    * [x] Functional games
+    * [x] Decently accurate
+* Optional
+    * [ ] Pluralization
+    * [ ] Option to include pfverbs in Conjugate Verbs
+    * [ ] EN-DE mode for Translate PfVerbs
+    * [ ] More detailed explanation when wrong
+    * [ ] Various levels of vocab
+    * [ ] More customizable settings
+
+# To Do
+* [x] Finish Settings
+* [x] Refactor Controller into template
+* [x] Implement DeclineAdj, TranslateSeparables
+* [ ] Docstring, type hints
+* [ ] Update UML
+* [ ] Error handling
+* [ ] Unit testting
+* [ ] Github

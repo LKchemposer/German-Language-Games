@@ -4,10 +4,11 @@ from pattern import de
 
 
 class ConjAdj(ABC):
-    '''Methods inferring the gender of a noun.'''
+    '''Methods inferring the gender of a noun, if not given.'''
 
+    @staticmethod
     @abstractmethod
-    def get_conjadj(self, adj: str):
+    def get_conjadj():
         pass
 
 

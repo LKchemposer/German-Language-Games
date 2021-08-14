@@ -32,15 +32,15 @@ class SettingsController(Controller):
         self.input_loop('', self.model.settings, self.set_setting,
                         autoupdate=True, update_func=self.update_prompt)
 
+    def set_setting(self, setting: Setting):
+        value = getattr(self, setting.method)(setting)
+        setting.value = value
+
     def update_prompt(self):
         options = self.view.format_options(self.model.settings)
         prompt = self.view.show_options(
             options, 'Settings', ['or Q to go back to Menu'])
         return prompt
-
-    def set_setting(self, setting: Setting):
-        value = getattr(self, setting.method)(setting)
-        setting.value = value
 
     def choose_one(self, setting: Setting):
         prompt = self.view.show_options(setting.options, f'set {setting.name}')
@@ -50,7 +50,7 @@ class SettingsController(Controller):
     def fill_in(self, setting: Setting):
         prompt = f'set {setting.name}: '
         value = self.input_loop_set_setting(
-            prompt, condition=setting.condition)
+            prompt, condition=setting.is_valid)
         return value
 
     def input_loop_set_setting(self, prompt: str, options=[], condition=None):
