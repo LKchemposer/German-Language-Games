@@ -1,0 +1,1285 @@
+{
+    "nouns": [
+        {
+            "noun": "englisch",
+            "gender": "n"
+        },
+        {
+            "noun": "durst",
+            "gender": "m"
+        },
+        {
+            "noun": "deutsch",
+            "gender": "n"
+        },
+        {
+            "noun": "ei",
+            "gender": "n"
+        },
+        {
+            "noun": "hunger",
+            "gender": "m"
+        },
+        {
+            "noun": "k\u00fch",
+            "gender": "f"
+        },
+        {
+            "noun": "ente",
+            "gender": "f"
+        },
+        {
+            "noun": "tier",
+            "gender": "n"
+        },
+        {
+            "noun": "m\u00e4us",
+            "gender": "f"
+        },
+        {
+            "noun": "b\u00e4re",
+            "gender": "m"
+        },
+        {
+            "noun": "v\u00f6gel",
+            "gender": "m"
+        },
+        {
+            "noun": "schwein",
+            "gender": "n"
+        },
+        {
+            "noun": "milch",
+            "gender": "f"
+        },
+        {
+            "noun": "zeitung",
+            "gender": "f"
+        },
+        {
+            "noun": "kind",
+            "gender": "n"
+        },
+        {
+            "noun": "kind",
+            "gender": "n"
+        },
+        {
+            "noun": "m\u00e4dchen",
+            "gender": "n"
+        },
+        {
+            "noun": "jung",
+            "gender": "m"
+        },
+        {
+            "noun": "frau",
+            "gender": "f"
+        },
+        {
+            "noun": "man",
+            "gender": "m"
+        },
+        {
+            "noun": "brot",
+            "gender": "n"
+        },
+        {
+            "noun": "jung",
+            "gender": "m"
+        },
+        {
+            "noun": "mann",
+            "gender": "m"
+        },
+        {
+            "noun": "frau",
+            "gender": "f"
+        },
+        {
+            "noun": "rot",
+            "gender": "n"
+        },
+        {
+            "noun": "farbe",
+            "gender": "f"
+        },
+        {
+            "noun": "meter",
+            "gender": "m"
+        },
+        {
+            "noun": "liter",
+            "gender": "m"
+        },
+        {
+            "noun": "prozent",
+            "gender": "n"
+        },
+        {
+            "noun": "milliarde",
+            "gender": "f"
+        },
+        {
+            "noun": "million",
+            "gender": "f"
+        },
+        {
+            "noun": "million",
+            "gender": "f"
+        },
+        {
+            "noun": "milliard",
+            "gender": "f"
+        },
+        {
+            "noun": "f\u00e4hr",
+            "gender": "f"
+        },
+        {
+            "noun": "f\u00e4hre",
+            "gender": "f"
+        },
+        {
+            "noun": "besuch",
+            "gender": "m"
+        },
+        {
+            "noun": "versp\u00e4tung",
+            "gender": "f"
+        },
+        {
+            "noun": "schwede",
+            "gender": "m"
+        },
+        {
+            "noun": "bah",
+            "gender": "f"
+        },
+        {
+            "noun": "tour",
+            "gender": "f"
+        },
+        {
+            "noun": "abenteu",
+            "gender": "n"
+        },
+        {
+            "noun": "bahn",
+            "gender": "f"
+        },
+        {
+            "noun": "boot",
+            "gender": "n"
+        },
+        {
+            "noun": "boot",
+            "gender": "n"
+        },
+        {
+            "noun": "motorrad",
+            "gender": "n"
+        },
+        {
+            "noun": "fahrt",
+            "gender": "f"
+        },
+        {
+            "noun": "streck",
+            "gender": "f"
+        },
+        {
+            "noun": "verkehr",
+            "gender": "m"
+        },
+        {
+            "noun": "schweizer",
+            "gender": "m"
+        },
+        {
+            "noun": "strecke",
+            "gender": "f"
+        },
+        {
+            "noun": "motorrad",
+            "gender": "n"
+        },
+        {
+            "noun": "weg",
+            "gender": "m"
+        },
+        {
+            "noun": "reisef\u00fchrer",
+            "gender": "m"
+        },
+        {
+            "noun": "taxi",
+            "gender": "n"
+        },
+        {
+            "noun": "sehensw\u00fcrdigkeit",
+            "gender": "f"
+        },
+        {
+            "noun": "flug",
+            "gender": "m"
+        },
+        {
+            "noun": "pass",
+            "gender": "m"
+        },
+        {
+            "noun": "zoll",
+            "gender": "m"
+        },
+        {
+            "noun": "reis",
+            "gender": "f"
+        },
+        {
+            "noun": "visum",
+            "gender": "n"
+        },
+        {
+            "noun": "fahrrad",
+            "gender": "n"
+        },
+        {
+            "noun": "zug",
+            "gender": "m"
+        },
+        {
+            "noun": "auto",
+            "gender": "n"
+        },
+        {
+            "noun": "urlaub",
+            "gender": "m"
+        },
+        {
+            "noun": "z\u00fcg",
+            "gender": "m"
+        },
+        {
+            "noun": "fahrrad",
+            "gender": "n"
+        },
+        {
+            "noun": "bu",
+            "gender": "m"
+        },
+        {
+            "noun": "buss",
+            "gender": "m"
+        },
+        {
+            "noun": "auto",
+            "gender": "n"
+        },
+        {
+            "noun": "einkaufszentr",
+            "gender": "n"
+        },
+        {
+            "noun": "sonderangebot",
+            "gender": "n"
+        },
+        {
+            "noun": "gutschein",
+            "gender": "m"
+        },
+        {
+            "noun": "apothek",
+            "gender": "f"
+        },
+        {
+            "noun": "einkaufszentrum",
+            "gender": "n"
+        },
+        {
+            "noun": "gutschein",
+            "gender": "m"
+        },
+        {
+            "noun": "apothek",
+            "gender": "f"
+        },
+        {
+            "noun": "supermarkt",
+            "gender": "m"
+        },
+        {
+            "noun": "kass",
+            "gender": "f"
+        },
+        {
+            "noun": "lade",
+            "gender": "m"
+        },
+        {
+            "noun": "l\u00e4d",
+            "gender": "m"
+        },
+        {
+            "noun": "b\u00e4ckerei",
+            "gender": "f"
+        },
+        {
+            "noun": "gesch\u00e4ft",
+            "gender": "n"
+        },
+        {
+            "noun": "f\u00fc\u00df",
+            "gender": "m"
+        },
+        {
+            "noun": "gesicht",
+            "gender": "n"
+        },
+        {
+            "noun": "bein",
+            "gender": "n"
+        },
+        {
+            "noun": "haut",
+            "gender": "f"
+        },
+        {
+            "noun": "blut",
+            "gender": "n"
+        },
+        {
+            "noun": "bein",
+            "gender": "n"
+        },
+        {
+            "noun": "fu\u00df",
+            "gender": "m"
+        },
+        {
+            "noun": "schultern",
+            "gender": "f"
+        },
+        {
+            "noun": "herz",
+            "gender": "n"
+        },
+        {
+            "noun": "r\u00fccke",
+            "gender": "m"
+        },
+        {
+            "noun": "herz",
+            "gender": "n"
+        },
+        {
+            "noun": "schulter",
+            "gender": "f"
+        },
+        {
+            "noun": "brust",
+            "gender": "f"
+        },
+        {
+            "noun": "brust",
+            "gender": "f"
+        },
+        {
+            "noun": "mage",
+            "gender": "m"
+        },
+        {
+            "noun": "dutzend",
+            "gender": "n"
+        },
+        {
+            "noun": "finger",
+            "gender": "m"
+        },
+        {
+            "noun": "hal",
+            "gender": "m"
+        },
+        {
+            "noun": "arm",
+            "gender": "m"
+        },
+        {
+            "noun": "mund",
+            "gender": "m"
+        },
+        {
+            "noun": "zah",
+            "gender": "m"
+        },
+        {
+            "noun": "hand",
+            "gender": "f"
+        },
+        {
+            "noun": "hand",
+            "gender": "f"
+        },
+        {
+            "noun": "auge",
+            "gender": "n"
+        },
+        {
+            "noun": "haar",
+            "gender": "n"
+        },
+        {
+            "noun": "k\u00f6rper",
+            "gender": "m"
+        },
+        {
+            "noun": "nase",
+            "gender": "f"
+        },
+        {
+            "noun": "ohr",
+            "gender": "n"
+        },
+        {
+            "noun": "kopf",
+            "gender": "m"
+        },
+        {
+            "noun": "halbschwester",
+            "gender": "f"
+        },
+        {
+            "noun": "hochzeit",
+            "gender": "f"
+        },
+        {
+            "noun": "partnerschaft",
+            "gender": "f"
+        },
+        {
+            "noun": "halbbrud",
+            "gender": "m"
+        },
+        {
+            "noun": "halbbr\u00fcd",
+            "gender": "m"
+        },
+        {
+            "noun": "zwilling",
+            "gender": "m"
+        },
+        {
+            "noun": "cousin",
+            "gender": "f"
+        },
+        {
+            "noun": "cousine",
+            "gender": "f"
+        },
+        {
+            "noun": "urenkel",
+            "gender": "m"
+        },
+        {
+            "noun": "cousin",
+            "gender": "m"
+        },
+        {
+            "noun": "urgro\u00dfmutter",
+            "gender": "f"
+        },
+        {
+            "noun": "zwilling",
+            "gender": "m"
+        },
+        {
+            "noun": "neffe",
+            "gender": "m"
+        },
+        {
+            "noun": "nicht",
+            "gender": "f"
+        },
+        {
+            "noun": "verwandt",
+            "gender": "f"
+        },
+        {
+            "noun": "verwandt",
+            "gender": "f"
+        },
+        {
+            "noun": "tant",
+            "gender": "f"
+        },
+        {
+            "noun": "onkel",
+            "gender": "m"
+        },
+        {
+            "noun": "trinkgeld",
+            "gender": "n"
+        },
+        {
+            "noun": "dollar",
+            "gender": "m"
+        },
+        {
+            "noun": "geld",
+            "gender": "n"
+        },
+        {
+            "noun": "euro",
+            "gender": "m"
+        },
+        {
+            "noun": "preis",
+            "gender": "m"
+        },
+        {
+            "noun": "preis",
+            "gender": "m"
+        },
+        {
+            "noun": "cent",
+            "gender": "m"
+        },
+        {
+            "noun": "euro",
+            "gender": "m"
+        },
+        {
+            "noun": "nachtisch",
+            "gender": "m"
+        },
+        {
+            "noun": "kuchen",
+            "gender": "m"
+        },
+        {
+            "noun": "l\u00f6ffel",
+            "gender": "m"
+        },
+        {
+            "noun": "gabel",
+            "gender": "f"
+        },
+        {
+            "noun": "senf",
+            "gender": "m"
+        },
+        {
+            "noun": "vorspeis",
+            "gender": "f"
+        },
+        {
+            "noun": "knoblauch",
+            "gender": "m"
+        },
+        {
+            "noun": "bohne",
+            "gender": "f"
+        },
+        {
+            "noun": "pilz",
+            "gender": "m"
+        },
+        {
+            "noun": "pilz",
+            "gender": "m"
+        },
+        {
+            "noun": "honig",
+            "gender": "m"
+        },
+        {
+            "noun": "marmelad",
+            "gender": "f"
+        },
+        {
+            "noun": "butter",
+            "gender": "f"
+        },
+        {
+            "noun": "m\u00fcsli",
+            "gender": "n"
+        },
+        {
+            "noun": "nuss",
+            "gender": "f"
+        },
+        {
+            "noun": "h\u00e4lft",
+            "gender": "f"
+        },
+        {
+            "noun": "zahl",
+            "gender": "f"
+        },
+        {
+            "noun": "zahl",
+            "gender": "f"
+        },
+        {
+            "noun": "summ",
+            "gender": "f"
+        },
+        {
+            "noun": "nummer",
+            "gender": "f"
+        },
+        {
+            "noun": "farb",
+            "gender": "f"
+        },
+        {
+            "noun": "professor",
+            "gender": "m"
+        },
+        {
+            "noun": "antwort",
+            "gender": "f"
+        },
+        {
+            "noun": "antworte",
+            "gender": "f"
+        },
+        {
+            "noun": "frage",
+            "gender": "f"
+        },
+        {
+            "noun": "frage",
+            "gender": "f"
+        },
+        {
+            "noun": "nachbar",
+            "gender": "m"
+        },
+        {
+            "noun": "besucher",
+            "gender": "m"
+        },
+        {
+            "noun": "fan",
+            "gender": "m"
+        },
+        {
+            "noun": "mitglied",
+            "gender": "n"
+        },
+        {
+            "noun": "mitglied",
+            "gender": "n"
+        },
+        {
+            "noun": "anf\u00e4nger",
+            "gender": "m"
+        },
+        {
+            "noun": "geschlecht",
+            "gender": "n"
+        },
+        {
+            "noun": "gegner",
+            "gender": "m"
+        },
+        {
+            "noun": "grupp",
+            "gender": "f"
+        },
+        {
+            "noun": "publikum",
+            "gender": "n"
+        },
+        {
+            "noun": "gruppe",
+            "gender": "f"
+        },
+        {
+            "noun": "gast",
+            "gender": "m"
+        },
+        {
+            "noun": "t\u00fcrk",
+            "gender": "m"
+        },
+        {
+            "noun": "b\u00fcrger",
+            "gender": "m"
+        },
+        {
+            "noun": "erwachsen",
+            "gender": "f"
+        },
+        {
+            "noun": "herre",
+            "gender": "m"
+        },
+        {
+            "noun": "dame",
+            "gender": "f"
+        },
+        {
+            "noun": "herre",
+            "gender": "m"
+        },
+        {
+            "noun": "name",
+            "gender": "m"
+        },
+        {
+            "noun": "freund",
+            "gender": "m"
+        },
+        {
+            "noun": "freundi",
+            "gender": "f"
+        },
+        {
+            "noun": "vornam",
+            "gender": "m"
+        },
+        {
+            "noun": "baby",
+            "gender": "n"
+        },
+        {
+            "noun": "vorname",
+            "gender": "m"
+        },
+        {
+            "noun": "perso",
+            "gender": "f"
+        },
+        {
+            "noun": "steckdos",
+            "gender": "f"
+        },
+        {
+            "noun": "bette",
+            "gender": "n"
+        },
+        {
+            "noun": "licht",
+            "gender": "n"
+        },
+        {
+            "noun": "teppich",
+            "gender": "m"
+        },
+        {
+            "noun": "bett",
+            "gender": "n"
+        },
+        {
+            "noun": "lamp",
+            "gender": "f"
+        },
+        {
+            "noun": "wohnzimmer",
+            "gender": "n"
+        },
+        {
+            "noun": "m\u00f6bel",
+            "gender": "n"
+        },
+        {
+            "noun": "sofa",
+            "gender": "n"
+        },
+        {
+            "noun": "tisch",
+            "gender": "m"
+        },
+        {
+            "noun": "stuhl",
+            "gender": "m"
+        },
+        {
+            "noun": "schrank",
+            "gender": "m"
+        },
+        {
+            "noun": "schrank",
+            "gender": "m"
+        },
+        {
+            "noun": "wohnung",
+            "gender": "f"
+        },
+        {
+            "noun": "balko",
+            "gender": "m"
+        },
+        {
+            "noun": "schl\u00fcssel",
+            "gender": "m"
+        },
+        {
+            "noun": "dach",
+            "gender": "n"
+        },
+        {
+            "noun": "kuch",
+            "gender": "f"
+        },
+        {
+            "noun": "keller",
+            "gender": "m"
+        },
+        {
+            "noun": "fenster",
+            "gender": "n"
+        },
+        {
+            "noun": "deck",
+            "gender": "f"
+        },
+        {
+            "noun": "wand",
+            "gender": "f"
+        },
+        {
+            "noun": "zau",
+            "gender": "m"
+        },
+        {
+            "noun": "z\u00e4un",
+            "gender": "m"
+        },
+        {
+            "noun": "trepp",
+            "gender": "f"
+        },
+        {
+            "noun": "decke",
+            "gender": "f"
+        },
+        {
+            "noun": "t\u00fcr",
+            "gender": "f"
+        },
+        {
+            "noun": "studenti",
+            "gender": "f"
+        },
+        {
+            "noun": "spielzeug",
+            "gender": "n"
+        },
+        {
+            "noun": "fahrzeug",
+            "gender": "n"
+        },
+        {
+            "noun": "fahrzeug",
+            "gender": "n"
+        },
+        {
+            "noun": "werkzeug",
+            "gender": "n"
+        },
+        {
+            "noun": "werkzeug",
+            "gender": "n"
+        },
+        {
+            "noun": "park",
+            "gender": "m"
+        },
+        {
+            "noun": "br\u00fcck",
+            "gender": "f"
+        },
+        {
+            "noun": "park",
+            "gender": "m"
+        },
+        {
+            "noun": "zimmer",
+            "gender": "n"
+        },
+        {
+            "noun": "land",
+            "gender": "n"
+        },
+        {
+            "noun": "dorf",
+            "gender": "n"
+        },
+        {
+            "noun": "stadt",
+            "gender": "f"
+        },
+        {
+            "noun": "stra\u00df",
+            "gender": "f"
+        },
+        {
+            "noun": "hotel",
+            "gender": "n"
+        },
+        {
+            "noun": "bibliothek",
+            "gender": "f"
+        },
+        {
+            "noun": "bibliothek",
+            "gender": "f"
+        },
+        {
+            "noun": "schlos",
+            "gender": "n"
+        },
+        {
+            "noun": "bahnhof",
+            "gender": "m"
+        },
+        {
+            "noun": "restaurant",
+            "gender": "n"
+        },
+        {
+            "noun": "bank",
+            "gender": "f"
+        },
+        {
+            "noun": "markt",
+            "gender": "m"
+        },
+        {
+            "noun": "garte",
+            "gender": "m"
+        },
+        {
+            "noun": "schul",
+            "gender": "f"
+        },
+        {
+            "noun": "geb\u00e4ud",
+            "gender": "n"
+        },
+        {
+            "noun": "schule",
+            "gender": "f"
+        },
+        {
+            "noun": "haus",
+            "gender": "n"
+        },
+        {
+            "noun": "stern",
+            "gender": "m"
+        },
+        {
+            "noun": "sonn",
+            "gender": "f"
+        },
+        {
+            "noun": "himmel",
+            "gender": "m"
+        },
+        {
+            "noun": "mond",
+            "gender": "m"
+        },
+        {
+            "noun": "me",
+            "gender": "n"
+        },
+        {
+            "noun": "feu",
+            "gender": "n"
+        },
+        {
+            "noun": "blum",
+            "gender": "f"
+        },
+        {
+            "noun": "luft",
+            "gender": "f"
+        },
+        {
+            "noun": "wind",
+            "gender": "m"
+        },
+        {
+            "noun": "berg",
+            "gender": "m"
+        },
+        {
+            "noun": "erd",
+            "gender": "f"
+        },
+        {
+            "noun": "natur",
+            "gender": "f"
+        },
+        {
+            "noun": "baum",
+            "gender": "m"
+        },
+        {
+            "noun": "pizza",
+            "gender": "f"
+        },
+        {
+            "noun": "kopf",
+            "gender": "m"
+        },
+        {
+            "noun": "toilette",
+            "gender": "f"
+        },
+        {
+            "noun": "student",
+            "gender": "m"
+        },
+        {
+            "noun": "jacke",
+            "gender": "f"
+        },
+        {
+            "noun": "hemd",
+            "gender": "n"
+        },
+        {
+            "noun": "hos",
+            "gender": "f"
+        },
+        {
+            "noun": "jack",
+            "gender": "f"
+        },
+        {
+            "noun": "hose",
+            "gender": "f"
+        },
+        {
+            "noun": "kleidung",
+            "gender": "f"
+        },
+        {
+            "noun": "mantel",
+            "gender": "m"
+        },
+        {
+            "noun": "kleid",
+            "gender": "n"
+        },
+        {
+            "noun": "rock",
+            "gender": "m"
+        },
+        {
+            "noun": "rock",
+            "gender": "m"
+        },
+        {
+            "noun": "schuh",
+            "gender": "m"
+        },
+        {
+            "noun": "kleid",
+            "gender": "n"
+        },
+        {
+            "noun": "schuh",
+            "gender": "m"
+        },
+        {
+            "noun": "k\u00e4fer",
+            "gender": "m"
+        },
+        {
+            "noun": "banane",
+            "gender": "f"
+        },
+        {
+            "noun": "erdbeere",
+            "gender": "f"
+        },
+        {
+            "noun": "fliegen",
+            "gender": "f"
+        },
+        {
+            "noun": "insekt",
+            "gender": "n"
+        },
+        {
+            "noun": "schwein",
+            "gender": "n"
+        },
+        {
+            "noun": "mau",
+            "gender": "f"
+        },
+        {
+            "noun": "kaffe",
+            "gender": "m"
+        },
+        {
+            "noun": "\u00f6l",
+            "gender": "n"
+        },
+        {
+            "noun": "pizza",
+            "gender": "f"
+        }
+    ],
+    "verbs": [
+        "rufen",
+        "handeln",
+        "lassen",
+        "sein",
+        "gehen",
+        "trinken",
+        "lesen",
+        "nehmen",
+        "essen",
+        "kosten",
+        "haben",
+        "m\u00f6gen",
+        "sprechen",
+        "kommen",
+        "fliegen",
+        "buchen",
+        "wandern",
+        "beginnen",
+        "wollen",
+        "verkaufen",
+        "k\u00f6nnen",
+        "dr\u00fccken",
+        "lieben",
+        "schwimmen",
+        "leben",
+        "spielen",
+        "kochen",
+        "malen",
+        "brauchen",
+        "folgen",
+        "danken",
+        "helfen",
+        "geh\u00f6ren",
+        "besitzen",
+        "\u00fcberweisen",
+        "gewinnen",
+        "kaufen",
+        "fr\u00fchst\u00fccken",
+        "arbeiten",
+        "z\u00e4hlen",
+        "schlafen",
+        "treffen",
+        "antworten",
+        "lernen",
+        "\u00f6ffnen",
+        "enden",
+        "bauen",
+        "fallen",
+        "schlie\u00dfen",
+        "dauern",
+        "regnen",
+        "passen",
+        "singen",
+        "machen",
+        "hei\u00dfen",
+        "schneien",
+        "waschen",
+        "bezahlen",
+        "reichen",
+        "denken",
+        "bringen",
+        "kennen",
+        "rennen",
+        "fahren",
+        "schreiben",
+        "laufen",
+        "verstehen"
+    ],
+    "adjectives": [
+        "schnell",
+        "krank",
+        "kalt",
+        "toll",
+        "gro\u00df",
+        "neu",
+        "wirklich",
+        "alt",
+        "lang",
+        "weit",
+        "rund",
+        "normal",
+        "wichtig",
+        "sch\u00f6n",
+        "tief",
+        "langsam",
+        "hoch",
+        "klar",
+        "fertig",
+        "klein",
+        "schwach",
+        "leicht",
+        "billig",
+        "gut",
+        "gelb",
+        "braun",
+        "bunt",
+        "pink",
+        "blau",
+        "grauen",
+        "braune",
+        "teuer",
+        "kurz",
+        "rot",
+        "schwer",
+        "gr\u00fcn",
+        "sp\u00e4t",
+        "traurig",
+        "schwarz",
+        "wei\u00df",
+        "gesund",
+        "grau",
+        "jung",
+        "beliebt",
+        "perfekt",
+        "schwanger",
+        "verheiratet",
+        "schlecht",
+        "super",
+        "reich",
+        "ruhig",
+        "sauber",
+        "willkommen",
+        "warm",
+        "salzig",
+        "sauer",
+        "s\u00fc\u00df",
+        "scharf",
+        "lecker",
+        "schmutzig",
+        "richtig",
+        "frisch",
+        "zufrieden",
+        "stark",
+        "interessant",
+        "laut",
+        "gl\u00fccklich",
+        "fr\u00fch",
+        "weich",
+        "leise",
+        "lustig",
+        "m\u00fcde",
+        "n\u00e4chsten",
+        "langweilig",
+        "nett",
+        "halb",
+        "frei",
+        "einfach",
+        "kaputt",
+        "wunderbar",
+        "hei\u00df"
+    ],
+    "pfverbs": []
+}

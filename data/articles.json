@@ -1,0 +1,414 @@
+{
+    "der": {
+        "nominative": {
+            "m": "der",
+            "f": "die",
+            "n": "das",
+            "pl": "die"
+        },
+        "accusative": {
+            "m": "den",
+            "f": "die",
+            "n": "das",
+            "pl": "die"
+        },
+        "dative": {
+            "m": "dem",
+            "f": "der",
+            "n": "dem",
+            "pl": "den"
+        },
+        "genitive": {
+            "m": "des",
+            "f": "der",
+            "n": "des",
+            "pl": "der"
+        }
+    },
+    "dies": {
+        "nominative": {
+            "m": "dieser",
+            "f": "diese",
+            "n": "dieses",
+            "pl": "diese"
+        },
+        "accusative": {
+            "m": "diesen",
+            "f": "diese",
+            "n": "dieses",
+            "pl": "diese"
+        },
+        "dative": {
+            "m": "diesem",
+            "f": "dieser",
+            "n": "diesem",
+            "pl": "diesen"
+        },
+        "genitive": {
+            "m": "dieses",
+            "f": "dieser",
+            "n": "dieses",
+            "pl": "dieser"
+        }
+    },
+    "jed": {
+        "nominative": {
+            "m": "jeder",
+            "f": "jede",
+            "n": "jedes",
+            "pl": "jede"
+        },
+        "accusative": {
+            "m": "jeden",
+            "f": "jede",
+            "n": "jedes",
+            "pl": "jede"
+        },
+        "dative": {
+            "m": "jedem",
+            "f": "jeder",
+            "n": "jedem",
+            "pl": "jeden"
+        },
+        "genitive": {
+            "m": "jedes",
+            "f": "jeder",
+            "n": "jedes",
+            "pl": "jeder"
+        }
+    },
+    "jen": {
+        "nominative": {
+            "m": "jener",
+            "f": "jene",
+            "n": "jenes",
+            "pl": "jene"
+        },
+        "accusative": {
+            "m": "jenen",
+            "f": "jene",
+            "n": "jenes",
+            "pl": "jene"
+        },
+        "dative": {
+            "m": "jenem",
+            "f": "jener",
+            "n": "jenem",
+            "pl": "jenen"
+        },
+        "genitive": {
+            "m": "jenes",
+            "f": "jener",
+            "n": "jenes",
+            "pl": "jener"
+        }
+    },
+    "manch": {
+        "nominative": {
+            "m": "mancher",
+            "f": "manche",
+            "n": "manches",
+            "pl": "manche"
+        },
+        "accusative": {
+            "m": "manchen",
+            "f": "manche",
+            "n": "manches",
+            "pl": "manche"
+        },
+        "dative": {
+            "m": "manchem",
+            "f": "mancher",
+            "n": "manchem",
+            "pl": "manchen"
+        },
+        "genitive": {
+            "m": "manches",
+            "f": "mancher",
+            "n": "manches",
+            "pl": "mancher"
+        }
+    },
+    "solch": {
+        "nominative": {
+            "m": "solcher",
+            "f": "solche",
+            "n": "solches",
+            "pl": "solche"
+        },
+        "accusative": {
+            "m": "solchen",
+            "f": "solche",
+            "n": "solches",
+            "pl": "solche"
+        },
+        "dative": {
+            "m": "solchem",
+            "f": "solcher",
+            "n": "solchem",
+            "pl": "solchen"
+        },
+        "genitive": {
+            "m": "solches",
+            "f": "solcher",
+            "n": "solches",
+            "pl": "solcher"
+        }
+    },
+    "welch": {
+        "nominative": {
+            "m": "welcher",
+            "f": "welche",
+            "n": "welches",
+            "pl": "welche"
+        },
+        "accusative": {
+            "m": "welchen",
+            "f": "welche",
+            "n": "welches",
+            "pl": "welche"
+        },
+        "dative": {
+            "m": "welchem",
+            "f": "welcher",
+            "n": "welchem",
+            "pl": "welchen"
+        },
+        "genitive": {
+            "m": "welches",
+            "f": "welcher",
+            "n": "welches",
+            "pl": "welcher"
+        }
+    },
+    "all": {
+        "nominative": {
+            "m": "aller",
+            "f": "alle",
+            "n": "alles",
+            "pl": "alle"
+        },
+        "accusative": {
+            "m": "allen",
+            "f": "alle",
+            "n": "alles",
+            "pl": "alle"
+        },
+        "dative": {
+            "m": "allem",
+            "f": "aller",
+            "n": "allem",
+            "pl": "allen"
+        },
+        "genitive": {
+            "m": "alles",
+            "f": "aller",
+            "n": "alles",
+            "pl": "aller"
+        }
+    },
+    "ein": {
+        "nominative": {
+            "m": "ein",
+            "f": "eine",
+            "n": "ein"
+        },
+        "accusative": {
+            "m": "einen",
+            "f": "eine",
+            "n": "ein"
+        },
+        "dative": {
+            "m": "einem",
+            "f": "einer",
+            "n": "einem"
+        },
+        "genitive": {
+            "m": "eines",
+            "f": "einer",
+            "n": "eines"
+        }
+    },
+    "kein": {
+        "nominative": {
+            "m": "kein",
+            "f": "keine",
+            "n": "kein",
+            "pl": "keine"
+        },
+        "accusative": {
+            "m": "keinen",
+            "f": "keine",
+            "n": "kein",
+            "pl": "keine"
+        },
+        "dative": {
+            "m": "keinem",
+            "f": "keiner",
+            "n": "keinem",
+            "pl": "keinen"
+        },
+        "genitive": {
+            "m": "keines",
+            "f": "keiner",
+            "n": "keines",
+            "pl": "keiner"
+        }
+    },
+    "dein": {
+        "nominative": {
+            "m": "dein",
+            "f": "deine",
+            "n": "dein",
+            "pl": "deine"
+        },
+        "accusative": {
+            "m": "deinen",
+            "f": "deine",
+            "n": "dein",
+            "pl": "deine"
+        },
+        "dative": {
+            "m": "deinem",
+            "f": "deiner",
+            "n": "deinem",
+            "pl": "deinen"
+        },
+        "genitive": {
+            "m": "deines",
+            "f": "deiner",
+            "n": "deines",
+            "pl": "deiner"
+        }
+    },
+    "sein": {
+        "nominative": {
+            "m": "sein",
+            "f": "seine",
+            "n": "sein",
+            "pl": "seine"
+        },
+        "accusative": {
+            "m": "seinen",
+            "f": "seine",
+            "n": "sein",
+            "pl": "seine"
+        },
+        "dative": {
+            "m": "seinem",
+            "f": "seiner",
+            "n": "seinem",
+            "pl": "seinen"
+        },
+        "genitive": {
+            "m": "seines",
+            "f": "seiner",
+            "n": "seines",
+            "pl": "seiner"
+        }
+    },
+    "ihr": {
+        "nominative": {
+            "m": "ihr",
+            "f": "ihre",
+            "n": "ihr",
+            "pl": "ihre"
+        },
+        "accusative": {
+            "m": "ihren",
+            "f": "ihre",
+            "n": "ihr",
+            "pl": "ihre"
+        },
+        "dative": {
+            "m": "ihrem",
+            "f": "ihrer",
+            "n": "ihrem",
+            "pl": "ihren"
+        },
+        "genitive": {
+            "m": "ihres",
+            "f": "ihrer",
+            "n": "ihres",
+            "pl": "ihrer"
+        }
+    },
+    "unser": {
+        "nominative": {
+            "m": "unser",
+            "f": "unsere",
+            "n": "unser",
+            "pl": "unsere"
+        },
+        "accusative": {
+            "m": "unseren",
+            "f": "unsere",
+            "n": "unser",
+            "pl": "unsere"
+        },
+        "dative": {
+            "m": "unserem",
+            "f": "unserer",
+            "n": "unserem",
+            "pl": "unseren"
+        },
+        "genitive": {
+            "m": "unseres",
+            "f": "unserer",
+            "n": "unseres",
+            "pl": "unserer"
+        }
+    },
+    "Ihr": {
+        "nominative": {
+            "m": "Ihr",
+            "f": "Ihre",
+            "n": "Ihr",
+            "pl": "Ihre"
+        },
+        "accusative": {
+            "m": "Ihren",
+            "f": "Ihre",
+            "n": "Ihr",
+            "pl": "Ihre"
+        },
+        "dative": {
+            "m": "Ihrem",
+            "f": "Ihrer",
+            "n": "Ihrem",
+            "pl": "Ihren"
+        },
+        "genitive": {
+            "m": "Ihres",
+            "f": "Ihrer",
+            "n": "Ihres",
+            "pl": "Ihrer"
+        }
+    },
+    "euer": {
+        "nominative": {
+            "m": "euer",
+            "f": "eure",
+            "n": "euer",
+            "pl": "eure"
+        },
+        "accusative": {
+            "m": "euren",
+            "f": "eure",
+            "n": "euer",
+            "pl": "eure"
+        },
+        "dative": {
+            "m": "eurem",
+            "f": "eurer",
+            "n": "eurem",
+            "pl": "euren"
+        },
+        "genitive": {
+            "m": "eures",
+            "f": "eurer",
+            "n": "eures",
+            "pl": "eurer"
+        }
+    }
+}
