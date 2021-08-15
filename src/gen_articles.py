@@ -84,7 +84,7 @@ def create_articles_json():
 
     # write to file
     with open('../data/articles.json', 'w') as js:
-        js.write(json.dumps(articles))
+        js.write(json.dumps(articles, indent=4))
 
 
 if __name__ == '__main__':

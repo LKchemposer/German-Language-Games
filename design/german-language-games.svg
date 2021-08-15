@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1542px" preserveAspectRatio="none" style="width:1640px;height:1542px;background:#FFFFFF;" version="1.1" viewBox="0 0 1640 1542" width="1640px" zoomAndPan="magnify"><defs><filter height="300%" id="f1i7lmwurmru9x" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[815249f79c2c08157ac02b3106e03757]
+cluster Database--><path d="M677,945 C677,935 750,935 750,935 C750,935 823,935 823,945 L823,1143 C823,1153 750,1153 750,1153 C750,1153 677,1153 677,1143 L677,945 " fill="#FFFFFF" filter="url(#f1i7lmwurmru9x)" style="stroke:#000000;stroke-width:1.5;"/><path d="M677,945 C677,955 750,955 750,955 C750,955 823,955 823,945 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="66" x="717" y="970.5352">Database</text><!--MD5=[a1f54a22ef4f3e6e99a3104e18d74c5e]
+cluster MVC--><rect fill="#FFFFFF" filter="url(#f1i7lmwurmru9x)" height="303" style="stroke:#000000;stroke-width:1.5;" width="239" x="1389" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="33" x="1492" y="22.5352">MVC</text><!--MD5=[e9ccf8b99781d794353f426e2214d28b]
+cluster Game MVC--><rect fill="#FFFFFF" filter="url(#f1i7lmwurmru9x)" height="415" style="stroke:#000000;stroke-width:1.5;" width="301" x="656" y="480"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="767.5" y="495.5352">Game MVC</text><!--MD5=[35359161a260cf5553d0a7dd938f0e5d]
+cluster Games--><rect fill="#FFFFFF" filter="url(#f1i7lmwurmru9x)" height="457" style="stroke:#000000;stroke-width:1.5;" width="366" x="258" y="446"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="48" x="417" y="461.5352">Games</text><!--MD5=[0583036e8bd23fcf66d851cc5055c27f]
+cluster Menu MVC--><rect fill="#FFFFFF" filter="url(#f1i7lmwurmru9x)" height="260" style="stroke:#000000;stroke-width:1.5;" width="224" x="1141" y="37"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="77" x="1214.5" y="52.5352">Menu MVC</text><!--MD5=[f43ac01b5d4db724954aa069277fb4d8]
+cluster Play MVC--><rect fill="#FFFFFF" filter="url(#f1i7lmwurmru9x)" height="273.5" style="stroke:#000000;stroke-width:1.5;" width="226" x="981" y="334"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="68" x="1060" y="349.5352">Play MVC</text><!--MD5=[d7240238719104843f093a40ac1c50b8]
+cluster Settings MVC--><rect fill="#FFFFFF" filter="url(#f1i7lmwurmru9x)" height="398.5" style="stroke:#000000;stroke-width:1.5;" width="247" x="1067" y="715.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="97" x="1142" y="731.0352">Settings MVC</text><!--MD5=[716010994f961b0f056f49caaef4574b]
+cluster imports--><polygon fill="#FFFFFF" filter="url(#f1i7lmwurmru9x)" points="212,1452.5,275,1452.5,282,1474.9883,592,1474.9883,592,1535.5,212,1535.5,212,1452.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="212" x2="282" y1="1474.9883" y2="1474.9883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="216" y="1468.0352">imports</text><!--MD5=[ed3afe56f065d25b4329669e73deaf58]
+class Database--><rect codeLine="35" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="151.6406" id="Database" style="stroke:#A80036;stroke-width:1.5;" width="114" x="693" y="985"/><ellipse cx="720.15" cy="1001" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M722.6231,1007.1431 Q722.0421,1007.4419 721.4029,1007.5913 Q720.7638,1007.7407 720.0582,1007.7407 Q717.5514,1007.7407 716.2315,1006.0889 Q714.9117,1004.437 714.9117,1001.3159 Q714.9117,998.1865 716.2315,996.5347 Q717.5514,994.8828 720.0582,994.8828 Q720.7638,994.8828 721.4112,995.0322 Q722.0587,995.1816 722.6231,995.4805 L722.6231,998.2031 Q721.9923,997.6221 721.3988,997.3523 Q720.8053,997.0825 720.1744,997.0825 Q718.8297,997.0825 718.1449,998.1492 Q717.4601,999.2158 717.4601,1001.3159 Q717.4601,1003.4077 718.1449,1004.4744 Q718.8297,1005.541 720.1744,1005.541 Q720.8053,1005.541 721.3988,1005.2712 Q721.9923,1005.0015 722.6231,1004.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="736.85" y="1005.5352">Database</text><line style="stroke:#A80036;stroke-width:1.5;" x1="694" x2="806" y1="1017" y2="1017"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="34" x="699" y="1031.6348">nouns</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="30" x="699" y="1044.5898">verbs</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="699" y="1057.5449">adjectives</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="41" x="699" y="1070.5">pfverbs</text><line style="stroke:#A80036;stroke-width:1.5;" x1="694" x2="806" y1="1076.8203" y2="1076.8203"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="699" y="1091.4551">load_duolingo()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="699" y="1104.4102">load_pfverbs_csv()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="699" y="1117.3652">load_vocab_json()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="99" x="699" y="1130.3203">save_vocab_json()</text><!--MD5=[7e20e022571e30ec1001cf6eabd7f3e2]
+class Model--><rect codeLine="49" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="32" id="Model" style="stroke:#A80036;stroke-width:1.5;" width="67" x="1405.5" y="238.5"/><ellipse cx="1420.5" cy="254.5" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1420.6133,250.0981 L1419.4595,255.1699 L1421.7754,255.1699 Z M1419.1191,247.8569 L1422.1157,247.8569 L1425.4609,260.25 L1423.0122,260.25 L1422.2485,257.187 L1418.9697,257.187 L1418.2227,260.25 L1415.7739,260.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="35" x="1434.5" y="259.0352">Model</text><!--MD5=[c045e12321b83266d36d22b9096c24ea]
+class View--><rect codeLine="50" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="78.8652" id="View" style="stroke:#A80036;stroke-width:1.5;" width="104" x="1508" y="215"/><ellipse cx="1543.25" cy="231" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1543.3633,226.5981 L1542.2095,231.6699 L1544.5254,231.6699 Z M1541.8691,224.3569 L1544.8657,224.3569 L1548.2109,236.75 L1545.7622,236.75 L1544.9985,233.687 L1541.7197,233.687 L1540.9727,236.75 L1538.5239,236.75 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="27" x="1561.75" y="235.5352">View</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1509" x2="1611" y1="247" y2="247"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="1514" y="261.6348">show_prompt()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="27" x="1514" y="274.5898">sep()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="92" x="1514" y="287.5449">show_try_again()</text><!--MD5=[1d7ba1c7002d54515419844fbd155368]
+class Controller--><rect codeLine="55" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="112.7754" id="Controller" style="stroke:#A80036;stroke-width:1.5;" width="88" x="1460" y="42"/><ellipse cx="1475" cy="58" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1475.1133,53.5981 L1473.9595,58.6699 L1476.2754,58.6699 Z M1473.6191,51.3569 L1476.6157,51.3569 L1479.9609,63.75 L1477.5122,63.75 L1476.7485,60.687 L1473.4697,60.687 L1472.7227,63.75 L1470.2739,63.75 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="56" x="1489" y="62.5352">Controller</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1461" x2="1547" y1="74" y2="74"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="21" x="1466" y="88.6348">quit</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1461" x2="1547" y1="94.9551" y2="94.9551"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="49" x="1466" y="109.5898">__init__()</text><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="27" x="1466" y="122.5449">run()</text><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="28" x="1466" y="135.5">end()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="66" x="1466" y="148.4551">input_loop()</text><!--MD5=[b6dcce5e5ef3c84b0b048d11301373dd]
+class Game--><rect codeLine="66" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="177.5508" id="Game" style="stroke:#A80036;stroke-width:1.5;" width="120" x="672" y="701"/><ellipse cx="711.3" cy="717" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M711.4133,712.5981 L710.2595,717.6699 L712.5754,717.6699 Z M709.9191,710.3569 L712.9157,710.3569 L716.2609,722.75 L713.8122,722.75 L713.0485,719.687 L709.7697,719.687 L709.0227,722.75 L706.5739,722.75 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="34" x="730.7" y="721.5352">Game</text><line style="stroke:#A80036;stroke-width:1.5;" x1="673" x2="791" y1="733" y2="733"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="29" x="678" y="747.6348">name</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="678" y="760.5898">instruction</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="678" y="773.5449">example</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="678" y="786.5">default_loads</text><line style="stroke:#A80036;stroke-width:1.5;" x1="673" x2="791" y1="792.8203" y2="792.8203"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="108" x="678" y="807.4551">generate_question()</text><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="99" x="678" y="820.4102">generate_answer()</text><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="101" x="678" y="833.3652">generate_prompt()</text><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="102" x="678" y="846.3203">generate_options()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="86" x="678" y="859.2754">refine_options()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="74" x="678" y="872.2305">load_default()</text><!--MD5=[5d3822d29342fbd355d1b65ea3562ec9]
+class GameView--><rect codeLine="79" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="143.6406" id="GameView" style="stroke:#A80036;stroke-width:1.5;" width="113" x="827.5" y="718"/><ellipse cx="851.5" cy="734" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M853.9731,740.1431 Q853.3921,740.4419 852.7529,740.5913 Q852.1138,740.7407 851.4082,740.7407 Q848.9014,740.7407 847.5815,739.0889 Q846.2617,737.437 846.2617,734.3159 Q846.2617,731.1865 847.5815,729.5347 Q848.9014,727.8828 851.4082,727.8828 Q852.1138,727.8828 852.7612,728.0322 Q853.4087,728.1816 853.9731,728.4805 L853.9731,731.2031 Q853.3423,730.6221 852.7488,730.3523 Q852.1553,730.0825 851.5244,730.0825 Q850.1797,730.0825 849.4949,731.1492 Q848.8101,732.2158 848.8101,734.3159 Q848.8101,736.4077 849.4949,737.4744 Q850.1797,738.541 851.5244,738.541 Q852.1553,738.541 852.7488,738.2712 Q853.3423,738.0015 853.9731,737.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="61" x="867.5" y="738.5352">GameView</text><line style="stroke:#A80036;stroke-width:1.5;" x1="828.5" x2="939.5" y1="750" y2="750"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="73" x="833.5" y="764.6348">show_check()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="98" x="833.5" y="777.5898">show_end_score()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="72" x="833.5" y="790.5449">show_score()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="58" x="833.5" y="803.5">show_life()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="88" x="833.5" y="816.4551">format_answer()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="833.5" y="829.4102">show_name()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="101" x="833.5" y="842.3652">show_instruction()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="87" x="833.5" y="855.3203">show_example()</text><!--MD5=[82d9c97a467af7c0b2c072e754b85475]
+class GameController--><rect codeLine="90" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="99.8203" id="GameController" style="stroke:#A80036;stroke-width:1.5;" width="157" x="727.5" y="515"/><ellipse cx="758.25" cy="531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M760.7231,537.1431 Q760.1421,537.4419 759.5029,537.5913 Q758.8638,537.7407 758.1582,537.7407 Q755.6514,537.7407 754.3315,536.0889 Q753.0117,534.437 753.0117,531.3159 Q753.0117,528.1865 754.3315,526.5347 Q755.6514,524.8828 758.1582,524.8828 Q758.8638,524.8828 759.5112,525.0322 Q760.1587,525.1816 760.7231,525.4805 L760.7231,528.2031 Q760.0923,527.6221 759.4988,527.3523 Q758.9053,527.0825 758.2744,527.0825 Q756.9297,527.0825 756.2449,528.1492 Q755.5601,529.2158 755.5601,531.3159 Q755.5601,533.4077 756.2449,534.4744 Q756.9297,535.541 758.2744,535.541 Q758.9053,535.541 759.4988,535.2712 Q760.0923,535.0015 760.7231,534.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="90" x="775.75" y="535.5352">GameController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="728.5" x2="883.5" y1="547" y2="547"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="16" x="733.5" y="561.6348">life</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="43" x="733.5" y="574.5898">success</text><line style="stroke:#A80036;stroke-width:1.5;" x1="728.5" x2="883.5" y1="580.9102" y2="580.9102"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="733.5" y="595.5449">check_answer()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="145" x="733.5" y="608.5">generate_answer_prompt()</text><!--MD5=[b206f8649bf91c09421bc71d0bc8d3cb]
+class ConjugateArticle--><rect codeLine="100" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="151.6406" id="ConjugateArticle" style="stroke:#A80036;stroke-width:1.5;" width="126" x="291" y="489"/><ellipse cx="306" cy="505" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M308.4731,511.1431 Q307.8921,511.4419 307.2529,511.5913 Q306.6138,511.7407 305.9082,511.7407 Q303.4014,511.7407 302.0815,510.0889 Q300.7617,508.437 300.7617,505.3159 Q300.7617,502.1865 302.0815,500.5347 Q303.4014,498.8828 305.9082,498.8828 Q306.6138,498.8828 307.2612,499.0322 Q307.9087,499.1816 308.4731,499.4805 L308.4731,502.2031 Q307.8423,501.6221 307.2488,501.3523 Q306.6553,501.0825 306.0244,501.0825 Q304.6797,501.0825 303.9949,502.1492 Q303.3101,503.2158 303.3101,505.3159 Q303.3101,507.4077 303.9949,508.4744 Q304.6797,509.541 306.0244,509.541 Q306.6553,509.541 307.2488,509.2712 Q307.8423,509.0015 308.4731,508.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="94" x="320" y="509.5352">ConjugateArticle</text><line style="stroke:#A80036;stroke-width:1.5;" x1="292" x2="416" y1="521" y2="521"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="7" x="297" y="535.6348">n</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="34" x="297" y="548.5898">nouns</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="28" x="297" y="561.5449">noun</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="26" x="297" y="574.5">form</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="24" x="297" y="587.4551">case</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="38" x="297" y="600.4102">gender</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="38" x="297" y="613.3652">conjart</text><line style="stroke:#A80036;stroke-width:1.5;" x1="292" x2="416" y1="619.6855" y2="619.6855"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="297" y="634.3203">load_nouns()</text><!--MD5=[be758bc591a01c119c4aa4a21073c91b]
+class ConjugateVerb--><rect codeLine="111" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="112.7754" id="ConjugateVerb" style="stroke:#A80036;stroke-width:1.5;" width="118" x="452" y="508.5"/><ellipse cx="467" cy="524.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M469.4731,530.6431 Q468.8921,530.9419 468.2529,531.0913 Q467.6138,531.2407 466.9082,531.2407 Q464.4014,531.2407 463.0815,529.5889 Q461.7617,527.937 461.7617,524.8159 Q461.7617,521.6865 463.0815,520.0347 Q464.4014,518.3828 466.9082,518.3828 Q467.6138,518.3828 468.2612,518.5322 Q468.9087,518.6816 469.4731,518.9805 L469.4731,521.7031 Q468.8423,521.1221 468.2488,520.8523 Q467.6553,520.5825 467.0244,520.5825 Q465.6797,520.5825 464.9949,521.6492 Q464.3101,522.7158 464.3101,524.8159 Q464.3101,526.9077 464.9949,527.9744 Q465.6797,529.041 467.0244,529.041 Q467.6553,529.041 468.2488,528.7712 Q468.8423,528.5015 469.4731,527.9204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="481" y="529.0352">ConjugateVerb</text><line style="stroke:#A80036;stroke-width:1.5;" x1="453" x2="569" y1="540.5" y2="540.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="30" x="458" y="555.1348">verbs</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="24" x="458" y="568.0898">verb</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="458" y="581.0449">pronoun</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="458" y="594">conjverb</text><line style="stroke:#A80036;stroke-width:1.5;" x1="453" x2="569" y1="600.3203" y2="600.3203"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="458" y="614.9551">load_verbs()</text><!--MD5=[99497ba4abb92646abf9cce7ee3c44fe]
+class ConjugateAdjective--><rect codeLine="119" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="177.5508" id="ConjugateAdjective" style="stroke:#A80036;stroke-width:1.5;" width="143" x="282.5" y="701"/><ellipse cx="297.5" cy="717" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M299.9731,723.1431 Q299.3921,723.4419 298.7529,723.5913 Q298.1138,723.7407 297.4082,723.7407 Q294.9014,723.7407 293.5815,722.0889 Q292.2617,720.437 292.2617,717.3159 Q292.2617,714.1865 293.5815,712.5347 Q294.9014,710.8828 297.4082,710.8828 Q298.1138,710.8828 298.7612,711.0322 Q299.4087,711.1816 299.9731,711.4805 L299.9731,714.2031 Q299.3423,713.6221 298.7488,713.3523 Q298.1553,713.0825 297.5244,713.0825 Q296.1797,713.0825 295.4949,714.1492 Q294.8101,715.2158 294.8101,717.3159 Q294.8101,719.4077 295.4949,720.4744 Q296.1797,721.541 297.5244,721.541 Q298.1553,721.541 298.7488,721.2712 Q299.3423,721.0015 299.9731,720.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="111" x="311.5" y="721.5352">ConjugateAdjective</text><line style="stroke:#A80036;stroke-width:1.5;" x1="283.5" x2="424.5" y1="733" y2="733"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="288.5" y="747.6348">adjectives</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="288.5" y="760.5898">adjective</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="28" x="288.5" y="773.5449">noun</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="26" x="288.5" y="786.5">form</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="24" x="288.5" y="799.4551">case</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="38" x="288.5" y="812.4102">gender</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="38" x="288.5" y="825.3652">conjart</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="288.5" y="838.3203">pronoun</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="288.5" y="851.2754">conjverb</text><line style="stroke:#A80036;stroke-width:1.5;" x1="283.5" x2="424.5" y1="857.5957" y2="857.5957"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="90" x="288.5" y="872.2305">load_adjectives()</text><!--MD5=[e6ca54e5371d204669d1eaa941c4a67e]
+class TranslatePfVerbs--><rect codeLine="132" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="125.7305" id="TranslatePfVerbs" style="stroke:#A80036;stroke-width:1.5;" width="131" x="460.5" y="727"/><ellipse cx="475.5" cy="743" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M477.9731,749.1431 Q477.3921,749.4419 476.7529,749.5913 Q476.1138,749.7407 475.4082,749.7407 Q472.9014,749.7407 471.5815,748.0889 Q470.2617,746.437 470.2617,743.3159 Q470.2617,740.1865 471.5815,738.5347 Q472.9014,736.8828 475.4082,736.8828 Q476.1138,736.8828 476.7612,737.0322 Q477.4087,737.1816 477.9731,737.4805 L477.9731,740.2031 Q477.3423,739.6221 476.7488,739.3523 Q476.1553,739.0825 475.5244,739.0825 Q474.1797,739.0825 473.4949,740.1492 Q472.8101,741.2158 472.8101,743.3159 Q472.8101,745.4077 473.4949,746.4744 Q474.1797,747.541 475.5244,747.541 Q476.1553,747.541 476.7488,747.2712 Q477.3423,747.0015 477.9731,746.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="99" x="489.5" y="747.5352">TranslatePfVerbs</text><line style="stroke:#A80036;stroke-width:1.5;" x1="461.5" x2="590.5" y1="759" y2="759"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="7" x="466.5" y="773.6348">n</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="41" x="466.5" y="786.5898">pfverbs</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="35" x="466.5" y="799.5449">pfverb</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="46" x="466.5" y="812.5">meaning</text><line style="stroke:#A80036;stroke-width:1.5;" x1="461.5" x2="590.5" y1="818.8203" y2="818.8203"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="466.5" y="833.4551">load_pfverbs()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="60" x="466.5" y="846.4102">to_pfverb()</text><!--MD5=[f0268dd29ee89052933f031546cb1cab]
+class Menu--><rect codeLine="144" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="52.9551" id="Menu" style="stroke:#A80036;stroke-width:1.5;" width="63" x="1157.5" y="228"/><ellipse cx="1172.5" cy="244" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1174.9731,250.1431 Q1174.3921,250.4419 1173.7529,250.5913 Q1173.1138,250.7407 1172.4082,250.7407 Q1169.9014,250.7407 1168.5815,249.0889 Q1167.2617,247.437 1167.2617,244.3159 Q1167.2617,241.1865 1168.5815,239.5347 Q1169.9014,237.8828 1172.4082,237.8828 Q1173.1138,237.8828 1173.7612,238.0322 Q1174.4087,238.1816 1174.9731,238.4805 L1174.9731,241.2031 Q1174.3423,240.6221 1173.7488,240.3523 Q1173.1553,240.0825 1172.5244,240.0825 Q1171.1797,240.0825 1170.4949,241.1492 Q1169.8101,242.2158 1169.8101,244.3159 Q1169.8101,246.4077 1170.4949,247.4744 Q1171.1797,248.541 1172.5244,248.541 Q1173.1553,248.541 1173.7488,248.2712 Q1174.3423,248.0015 1174.9731,247.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="31" x="1186.5" y="248.5352">Menu</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1158.5" x2="1219.5" y1="260" y2="260"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="30" x="1163.5" y="274.6348">menu</text><!--MD5=[f6bfa8e6ad2e37edcd578b647fafadda]
+class MenuView--><rect codeLine="148" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="52.9551" id="MenuView" style="stroke:#A80036;stroke-width:1.5;" width="93" x="1255.5" y="228"/><ellipse cx="1271.85" cy="244" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1274.3231,250.1431 Q1273.7421,250.4419 1273.1029,250.5913 Q1272.4638,250.7407 1271.7582,250.7407 Q1269.2514,250.7407 1267.9315,249.0889 Q1266.6117,247.437 1266.6117,244.3159 Q1266.6117,241.1865 1267.9315,239.5347 Q1269.2514,237.8828 1271.7582,237.8828 Q1272.4638,237.8828 1273.1112,238.0322 Q1273.7587,238.1816 1274.3231,238.4805 L1274.3231,241.2031 Q1273.6923,240.6221 1273.0988,240.3523 Q1272.5053,240.0825 1271.8744,240.0825 Q1270.5297,240.0825 1269.8449,241.1492 Q1269.1601,242.2158 1269.1601,244.3159 Q1269.1601,246.4077 1269.8449,247.4744 Q1270.5297,248.541 1271.8744,248.541 Q1272.5053,248.541 1273.0988,248.2712 Q1273.6923,248.0015 1274.3231,247.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="58" x="1286.15" y="248.5352">MenuView</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1256.5" x2="1347.5" y1="260" y2="260"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="81" x="1261.5" y="274.6348">exit_message()</text><!--MD5=[cb62662ac00a6bbafa71e2e8e2c6aa47]
+class MenuController--><rect codeLine="152" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="52.9551" id="MenuController" style="stroke:#A80036;stroke-width:1.5;" width="119" x="1193.5" y="72"/><ellipse cx="1208.5" cy="88" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1210.9731,94.1431 Q1210.3921,94.4419 1209.7529,94.5913 Q1209.1138,94.7407 1208.4082,94.7407 Q1205.9014,94.7407 1204.5815,93.0889 Q1203.2617,91.437 1203.2617,88.3159 Q1203.2617,85.1865 1204.5815,83.5347 Q1205.9014,81.8828 1208.4082,81.8828 Q1209.1138,81.8828 1209.7612,82.0322 Q1210.4087,82.1816 1210.9731,82.4805 L1210.9731,85.2031 Q1210.3423,84.6221 1209.7488,84.3523 Q1209.1553,84.0825 1208.5244,84.0825 Q1207.1797,84.0825 1206.4949,85.1492 Q1205.8101,86.2158 1205.8101,88.3159 Q1205.8101,90.4077 1206.4949,91.4744 Q1207.1797,92.541 1208.5244,92.541 Q1209.1553,92.541 1209.7488,92.2712 Q1210.3423,92.0015 1210.9731,91.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="87" x="1222.5" y="92.5352">MenuController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1194.5" x2="1311.5" y1="104" y2="104"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="56" x="1199.5" y="118.6348">run_item()</text><!--MD5=[22f149128707d465c8b2660daf24cb3f]
+class Play--><rect codeLine="159" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="52.9551" id="Play" style="stroke:#A80036;stroke-width:1.5;" width="55" x="997.5" y="538.5"/><ellipse cx="1012.5" cy="554.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1014.9731,560.6431 Q1014.3921,560.9419 1013.7529,561.0913 Q1013.1138,561.2407 1012.4082,561.2407 Q1009.9014,561.2407 1008.5815,559.5889 Q1007.2617,557.937 1007.2617,554.8159 Q1007.2617,551.6865 1008.5815,550.0347 Q1009.9014,548.3828 1012.4082,548.3828 Q1013.1138,548.3828 1013.7612,548.5322 Q1014.4087,548.6816 1014.9731,548.9805 L1014.9731,551.7031 Q1014.3423,551.1221 1013.7488,550.8523 Q1013.1553,550.5825 1012.5244,550.5825 Q1011.1797,550.5825 1010.4949,551.6492 Q1009.8101,552.7158 1009.8101,554.8159 Q1009.8101,556.9077 1010.4949,557.9744 Q1011.1797,559.041 1012.5244,559.041 Q1013.1553,559.041 1013.7488,558.7712 Q1014.3423,558.5015 1014.9731,557.9204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="23" x="1026.5" y="559.0352">Play</text><line style="stroke:#A80036;stroke-width:1.5;" x1="998.5" x2="1051.5" y1="570.5" y2="570.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="35" x="1003.5" y="585.1348">games</text><!--MD5=[7d098cfea779bb374973991beab6ed3b]
+class PlayView--><rect codeLine="163" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="52.9551" id="PlayView" style="stroke:#A80036;stroke-width:1.5;" width="103" x="1087.5" y="538.5"/><ellipse cx="1111.95" cy="554.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1114.4231,560.6431 Q1113.8421,560.9419 1113.2029,561.0913 Q1112.5638,561.2407 1111.8582,561.2407 Q1109.3514,561.2407 1108.0315,559.5889 Q1106.7117,557.937 1106.7117,554.8159 Q1106.7117,551.6865 1108.0315,550.0347 Q1109.3514,548.3828 1111.8582,548.3828 Q1112.5638,548.3828 1113.2112,548.5322 Q1113.8587,548.6816 1114.4231,548.9805 L1114.4231,551.7031 Q1113.7923,551.1221 1113.1988,550.8523 Q1112.6053,550.5825 1111.9744,550.5825 Q1110.6297,550.5825 1109.9449,551.6492 Q1109.2601,552.7158 1109.2601,554.8159 Q1109.2601,556.9077 1109.9449,557.9744 Q1110.6297,559.041 1111.9744,559.041 Q1112.6053,559.041 1113.1988,558.7712 Q1113.7923,558.5015 1114.4231,557.9204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="50" x="1128.05" y="559.0352">PlayView</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1088.5" x2="1189.5" y1="570.5" y2="570.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="91" x="1093.5" y="585.1348">format_options()</text><!--MD5=[cc8600b868f8dfab2c8d497bce62f90a]
+class PlayController--><rect codeLine="167" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="52.9551" id="PlayController" style="stroke:#A80036;stroke-width:1.5;" width="111" x="1079.5" y="369"/><ellipse cx="1094.5" cy="385" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1096.9731,391.1431 Q1096.3921,391.4419 1095.7529,391.5913 Q1095.1138,391.7407 1094.4082,391.7407 Q1091.9014,391.7407 1090.5815,390.0889 Q1089.2617,388.437 1089.2617,385.3159 Q1089.2617,382.1865 1090.5815,380.5347 Q1091.9014,378.8828 1094.4082,378.8828 Q1095.1138,378.8828 1095.7612,379.0322 Q1096.4087,379.1816 1096.9731,379.4805 L1096.9731,382.2031 Q1096.3423,381.6221 1095.7488,381.3523 Q1095.1553,381.0825 1094.5244,381.0825 Q1093.1797,381.0825 1092.4949,382.1492 Q1091.8101,383.2158 1091.8101,385.3159 Q1091.8101,387.4077 1092.4949,388.4744 Q1093.1797,389.541 1094.5244,389.541 Q1095.1553,389.541 1095.7488,389.2712 Q1096.3423,389.0015 1096.9731,388.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="79" x="1108.5" y="389.5352">PlayController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1080.5" x2="1189.5" y1="401" y2="401"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="62" x="1085.5" y="415.6348">run_game()</text><!--MD5=[fb0932da17f9982e4848347a102654e2]
+class Settings--><rect codeLine="174" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="52.9551" id="Settings" style="stroke:#A80036;stroke-width:1.5;" width="76" x="1083" y="1034.5"/><ellipse cx="1098" cy="1050.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1100.4731,1056.6431 Q1099.8921,1056.9419 1099.2529,1057.0913 Q1098.6138,1057.2407 1097.9082,1057.2407 Q1095.4014,1057.2407 1094.0815,1055.5889 Q1092.7617,1053.937 1092.7617,1050.8159 Q1092.7617,1047.6865 1094.0815,1046.0347 Q1095.4014,1044.3828 1097.9082,1044.3828 Q1098.6138,1044.3828 1099.2612,1044.5322 Q1099.9087,1044.6816 1100.4731,1044.9805 L1100.4731,1047.7031 Q1099.8423,1047.1221 1099.2488,1046.8523 Q1098.6553,1046.5825 1098.0244,1046.5825 Q1096.6797,1046.5825 1095.9949,1047.6492 Q1095.3101,1048.7158 1095.3101,1050.8159 Q1095.3101,1052.9077 1095.9949,1053.9744 Q1096.6797,1055.041 1098.0244,1055.041 Q1098.6553,1055.041 1099.2488,1054.7712 Q1099.8423,1054.5015 1100.4731,1053.9204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="44" x="1112" y="1055.0352">Settings</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1084" x2="1158" y1="1066.5" y2="1066.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="43" x="1089" y="1081.1348">settings</text><!--MD5=[154f8de619e5ac345981c4cddc1b03e5]
+class SettingsView--><rect codeLine="178" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="73.9102" id="SettingsView" style="stroke:#A80036;stroke-width:1.5;" width="103" x="1194.5" y="1024"/><ellipse cx="1209.5" cy="1040" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1211.9731,1046.1431 Q1211.3921,1046.4419 1210.7529,1046.5913 Q1210.1138,1046.7407 1209.4082,1046.7407 Q1206.9014,1046.7407 1205.5815,1045.0889 Q1204.2617,1043.437 1204.2617,1040.3159 Q1204.2617,1037.1865 1205.5815,1035.5347 Q1206.9014,1033.8828 1209.4082,1033.8828 Q1210.1138,1033.8828 1210.7612,1034.0322 Q1211.4087,1034.1816 1211.9731,1034.4805 L1211.9731,1037.2031 Q1211.3423,1036.6221 1210.7488,1036.3523 Q1210.1553,1036.0825 1209.5244,1036.0825 Q1208.1797,1036.0825 1207.4949,1037.1492 Q1206.8101,1038.2158 1206.8101,1040.3159 Q1206.8101,1042.4077 1207.4949,1043.4744 Q1208.1797,1044.541 1209.5244,1044.541 Q1210.1553,1044.541 1210.7488,1044.2712 Q1211.3423,1044.0015 1211.9731,1043.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="71" x="1223.5" y="1044.5352">SettingsView</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1195.5" x2="1296.5" y1="1056" y2="1056"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="83" x="1200.5" y="1070.6348">format_options</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1195.5" x2="1296.5" y1="1076.9551" y2="1076.9551"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="88" x="1200.5" y="1091.5898">settings_saved()</text><!--MD5=[ca4cc948c3787b5a90809d31fe6a59f0]
+class SettingsController--><rect codeLine="183" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="78.8652" id="SettingsController" style="stroke:#A80036;stroke-width:1.5;" width="143" x="1154.5" y="750.5"/><ellipse cx="1174.45" cy="766.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1176.9231,772.6431 Q1176.3421,772.9419 1175.7029,773.0913 Q1175.0638,773.2407 1174.3582,773.2407 Q1171.8514,773.2407 1170.5315,771.5889 Q1169.2117,769.937 1169.2117,766.8159 Q1169.2117,763.6865 1170.5315,762.0347 Q1171.8514,760.3828 1174.3582,760.3828 Q1175.0638,760.3828 1175.7112,760.5322 Q1176.3587,760.6816 1176.9231,760.9805 L1176.9231,763.7031 Q1176.2923,763.1221 1175.6988,762.8523 Q1175.1053,762.5825 1174.4744,762.5825 Q1173.1297,762.5825 1172.4449,763.6492 Q1171.7601,764.7158 1171.7601,766.8159 Q1171.7601,768.9077 1172.4449,769.9744 Q1173.1297,771.041 1174.4744,771.041 Q1175.1053,771.041 1175.6988,770.7712 Q1176.2923,770.5015 1176.9231,769.9204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="100" x="1189.55" y="771.0352">SettingsController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1155.5" x2="1296.5" y1="782.5" y2="782.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="1160.5" y="797.1348">set_setting()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="1160.5" y="810.0898">update_prompt()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="131" x="1160.5" y="823.0449">input_loop_set_setting()</text><!--MD5=[c4e09fbb47f3e95ab34262e084828ece]
+class genderdeterminator--><rect codeLine="200" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="32" id="genderdeterminator" style="stroke:#A80036;stroke-width:1.5;" width="148" x="228" y="1487.5"/><ellipse cx="243" cy="1503.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M246.6143,1510 L238.8945,1510 L238.8945,1497.6069 L246.6143,1497.6069 L246.6143,1499.7651 L241.3433,1499.7651 L241.3433,1502.438 L246.1162,1502.438 L246.1162,1504.5962 L241.3433,1504.5962 L241.3433,1507.8418 L246.6143,1507.8418 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="116" x="257" y="1508.0352">genderdeterminator</text><!--MD5=[f3932acb6e82b94e834c2d50df86e699]
+class pattern--><rect codeLine="201" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="32" id="pattern" style="stroke:#A80036;stroke-width:1.5;" width="74" x="411" y="1487.5"/><ellipse cx="426" cy="1503.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M429.6143,1510 L421.8945,1510 L421.8945,1497.6069 L429.6143,1497.6069 L429.6143,1499.7651 L424.3433,1499.7651 L424.3433,1502.438 L429.1162,1502.438 L429.1162,1504.5962 L424.3433,1504.5962 L424.3433,1507.8418 L429.6143,1507.8418 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="42" x="440" y="1508.0352">pattern</text><!--MD5=[bf9b5ccb176bace698f3dde67229ba63]
+class json--><rect codeLine="202" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="32" id="json" style="stroke:#A80036;stroke-width:1.5;" width="56" x="520" y="1487.5"/><ellipse cx="535" cy="1503.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M538.6143,1510 L530.8945,1510 L530.8945,1497.6069 L538.6143,1497.6069 L538.6143,1499.7651 L533.3433,1499.7651 L533.3433,1502.438 L538.1162,1502.438 L538.1162,1504.5962 L533.3433,1504.5962 L533.3433,1507.8418 L538.6143,1507.8418 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="24" x="549" y="1508.0352">json</text><!--MD5=[a4ea2dcb44ebd57046df9af95d8b8c12]
+class Gender--><rect codeLine="3" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="52.9551" id="Gender" style="stroke:#A80036;stroke-width:1.5;" width="81" x="206.5" y="1252.5"/><ellipse cx="224.2" cy="1268.5" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M224.3133,1264.0981 L223.1595,1269.1699 L225.4754,1269.1699 Z M222.8191,1261.8569 L225.8157,1261.8569 L229.1609,1274.25 L226.7122,1274.25 L225.9485,1271.187 L222.6697,1271.187 L221.9227,1274.25 L219.4739,1274.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="43" x="238.8" y="1273.0352">Gender</text><line style="stroke:#A80036;stroke-width:1.5;" x1="207.5" x2="286.5" y1="1284.5" y2="1284.5"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="69" x="212.5" y="1299.1348">get_gender()</text><!--MD5=[0ced3296d9c30cd593c8b9060c839fe3]
+class ConjArt--><rect codeLine="7" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="52.9551" id="ConjArt" style="stroke:#A80036;stroke-width:1.5;" width="81" x="668.5" y="1252.5"/><ellipse cx="686.2" cy="1268.5" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M686.3133,1264.0981 L685.1595,1269.1699 L687.4754,1269.1699 Z M684.8191,1261.8569 L687.8157,1261.8569 L691.1609,1274.25 L688.7122,1274.25 L687.9485,1271.187 L684.6697,1271.187 L683.9227,1274.25 L681.4739,1274.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="43" x="700.8" y="1273.0352">ConjArt</text><line style="stroke:#A80036;stroke-width:1.5;" x1="669.5" x2="748.5" y1="1284.5" y2="1284.5"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="69" x="674.5" y="1299.1348">get_conjart()</text><!--MD5=[1e948ee67233129646f2bed8ef1f15d6]
+class ConjAdj--><rect codeLine="11" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="52.9551" id="ConjAdj" style="stroke:#A80036;stroke-width:1.5;" width="82" x="532" y="1252.5"/><ellipse cx="548.8" cy="1268.5" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M548.9133,1264.0981 L547.7595,1269.1699 L550.0754,1269.1699 Z M547.4191,1261.8569 L550.4157,1261.8569 L553.7609,1274.25 L551.3122,1274.25 L550.5485,1271.187 L547.2697,1271.187 L546.5227,1274.25 L544.0739,1274.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="46" x="563.2" y="1273.0352">ConjAdj</text><line style="stroke:#A80036;stroke-width:1.5;" x1="533" x2="613" y1="1284.5" y2="1284.5"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="70" x="538" y="1299.1348">get_conjadj()</text><!--MD5=[13dee946fa4bd8966fdcea6055b6d822]
+class ConjVerb--><rect codeLine="15" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="52.9551" id="ConjVerb" style="stroke:#A80036;stroke-width:1.5;" width="90" x="386" y="1252.5"/><ellipse cx="402.8" cy="1268.5" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M402.9133,1264.0981 L401.7595,1269.1699 L404.0754,1269.1699 Z M401.4191,1261.8569 L404.4157,1261.8569 L407.7609,1274.25 L405.3122,1274.25 L404.5485,1271.187 L401.2697,1271.187 L400.5227,1274.25 L398.0739,1274.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="54" x="417.2" y="1273.0352">ConjVerb</text><line style="stroke:#A80036;stroke-width:1.5;" x1="387" x2="475" y1="1284.5" y2="1284.5"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="78" x="392" y="1299.1348">get_conjverb()</text><!--MD5=[09c4d209b07612e18b512840160e8db5]
+class Grammar--><rect codeLine="19" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="203.4609" id="Grammar" style="stroke:#A80036;stroke-width:1.5;" width="105" x="520.5" y="959.5"/><ellipse cx="543.6" cy="975.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M546.0731,981.6431 Q545.4921,981.9419 544.8529,982.0913 Q544.2138,982.2407 543.5082,982.2407 Q541.0014,982.2407 539.6815,980.5889 Q538.3617,978.937 538.3617,975.8159 Q538.3617,972.6865 539.6815,971.0347 Q541.0014,969.3828 543.5082,969.3828 Q544.2138,969.3828 544.8612,969.5322 Q545.5087,969.6816 546.0731,969.9805 L546.0731,972.7031 Q545.4423,972.1221 544.8488,971.8523 Q544.2553,971.5825 543.6244,971.5825 Q542.2797,971.5825 541.5949,972.6492 Q540.9101,973.7158 540.9101,975.8159 Q540.9101,977.9077 541.5949,978.9744 Q542.2797,980.041 543.6244,980.041 Q544.2553,980.041 544.8488,979.7712 Q545.4423,979.5015 546.0731,978.9204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="559.4" y="980.0352">Grammar</text><line style="stroke:#A80036;stroke-width:1.5;" x1="521.5" x2="624.5" y1="991.5" y2="991.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="526.5" y="1006.1348">pronouns</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="30" x="526.5" y="1019.0898">cases</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="526.5" y="1032.0449">der_words</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="526.5" y="1045">ein_words</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="35" x="526.5" y="1057.9551">tenses</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="526.5" y="1070.9102">conjart_options</text><line style="stroke:#A80036;stroke-width:1.5;" x1="521.5" x2="624.5" y1="1077.2305" y2="1077.2305"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="69" x="526.5" y="1091.8652">get_gender()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="69" x="526.5" y="1104.8203">get_conjart()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="526.5" y="1117.7754">get_conjverb()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="526.5" y="1130.7305">get_conjadj()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="526.5" y="1143.6855">get_conjarts()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="526.5" y="1156.6406">decode_der_ein()</text><!--MD5=[eba0f87483fbdb8841b3c5f23dd1ebb7]
+class Setting--><rect codeLine="190" fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="112.7754" id="Setting" style="stroke:#A80036;stroke-width:1.5;" width="70" x="1086" y="1222.5"/><ellipse cx="1101" cy="1238.5" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1101.1133,1234.0981 L1099.9595,1239.1699 L1102.2754,1239.1699 Z M1099.6191,1231.8569 L1102.6157,1231.8569 L1105.9609,1244.25 L1103.5122,1244.25 L1102.7485,1241.187 L1099.4697,1241.187 L1098.7227,1244.25 L1096.2739,1244.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="38" x="1115" y="1243.0352">Setting</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1087" x2="1155" y1="1254.5" y2="1254.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="28" x="1092" y="1269.1348">value</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="29" x="1092" y="1282.0898">name</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="43" x="1092" y="1295.0449">set_hint</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="41" x="1092" y="1308">options</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1087" x2="1155" y1="1314.3203" y2="1314.3203"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="58" x="1092" y="1328.9551">set_value()</text><!--MD5=[6fbcc89d7f27467d4543bbf9593e16af]
+class GenderDet_Gender--><rect fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="32" id="GenderDet_Gender" style="stroke:#A80036;stroke-width:1.5;" width="144" x="7" y="1395.5"/><ellipse cx="22" cy="1411.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M24.4731,1417.6431 Q23.8921,1417.9419 23.2529,1418.0913 Q22.6138,1418.2407 21.9082,1418.2407 Q19.4014,1418.2407 18.0815,1416.5889 Q16.7617,1414.937 16.7617,1411.8159 Q16.7617,1408.6865 18.0815,1407.0347 Q19.4014,1405.3828 21.9082,1405.3828 Q22.6138,1405.3828 23.2612,1405.5322 Q23.9087,1405.6816 24.4731,1405.9805 L24.4731,1408.7031 Q23.8423,1408.1221 23.2488,1407.8523 Q22.6553,1407.5825 22.0244,1407.5825 Q20.6797,1407.5825 19.9949,1408.6492 Q19.3101,1409.7158 19.3101,1411.8159 Q19.3101,1413.9077 19.9949,1414.9744 Q20.6797,1416.041 22.0244,1416.041 Q22.6553,1416.041 23.2488,1415.7712 Q23.8423,1415.5015 24.4731,1414.9204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="112" x="36" y="1416.0352">GenderDet_Gender</text><!--MD5=[e8ff1d73976b68a1bb239bb6ce557683]
+class Pattern_Gender--><rect fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="32" id="Pattern_Gender" style="stroke:#A80036;stroke-width:1.5;" width="122" x="186" y="1395.5"/><ellipse cx="201" cy="1411.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M203.4731,1417.6431 Q202.8921,1417.9419 202.2529,1418.0913 Q201.6138,1418.2407 200.9082,1418.2407 Q198.4014,1418.2407 197.0815,1416.5889 Q195.7617,1414.937 195.7617,1411.8159 Q195.7617,1408.6865 197.0815,1407.0347 Q198.4014,1405.3828 200.9082,1405.3828 Q201.6138,1405.3828 202.2612,1405.5322 Q202.9087,1405.6816 203.4731,1405.9805 L203.4731,1408.7031 Q202.8423,1408.1221 202.2488,1407.8523 Q201.6553,1407.5825 201.0244,1407.5825 Q199.6797,1407.5825 198.9949,1408.6492 Q198.3101,1409.7158 198.3101,1411.8159 Q198.3101,1413.9077 198.9949,1414.9744 Q199.6797,1416.041 201.0244,1416.041 Q201.6553,1416.041 202.2488,1415.7712 Q202.8423,1415.5015 203.4731,1414.9204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="90" x="215" y="1416.0352">Pattern_Gender</text><!--MD5=[c0450188f69a82a18ff679755a2ca380]
+class Lookup_Article--><rect fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="32" id="Lookup_Article" style="stroke:#A80036;stroke-width:1.5;" width="116" x="669" y="1395.5"/><ellipse cx="684" cy="1411.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M686.4731,1417.6431 Q685.8921,1417.9419 685.2529,1418.0913 Q684.6138,1418.2407 683.9082,1418.2407 Q681.4014,1418.2407 680.0815,1416.5889 Q678.7617,1414.937 678.7617,1411.8159 Q678.7617,1408.6865 680.0815,1407.0347 Q681.4014,1405.3828 683.9082,1405.3828 Q684.6138,1405.3828 685.2612,1405.5322 Q685.9087,1405.6816 686.4731,1405.9805 L686.4731,1408.7031 Q685.8423,1408.1221 685.2488,1407.8523 Q684.6553,1407.5825 684.0244,1407.5825 Q682.6797,1407.5825 681.9949,1408.6492 Q681.3101,1409.7158 681.3101,1411.8159 Q681.3101,1413.9077 681.9949,1414.9744 Q682.6797,1416.041 684.0244,1416.041 Q684.6553,1416.041 685.2488,1415.7712 Q685.8423,1415.5015 686.4731,1414.9204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="84" x="698" y="1416.0352">Lookup_Article</text><!--MD5=[19434eefa27e05e9a372040b4023cc19]
+class Pattern_ConjArt--><rect fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="32" id="Pattern_ConjArt" style="stroke:#A80036;stroke-width:1.5;" width="122" x="512" y="1395.5"/><ellipse cx="527" cy="1411.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M529.4731,1417.6431 Q528.8921,1417.9419 528.2529,1418.0913 Q527.6138,1418.2407 526.9082,1418.2407 Q524.4014,1418.2407 523.0815,1416.5889 Q521.7617,1414.937 521.7617,1411.8159 Q521.7617,1408.6865 523.0815,1407.0347 Q524.4014,1405.3828 526.9082,1405.3828 Q527.6138,1405.3828 528.2612,1405.5322 Q528.9087,1405.6816 529.4731,1405.9805 L529.4731,1408.7031 Q528.8423,1408.1221 528.2488,1407.8523 Q527.6553,1407.5825 527.0244,1407.5825 Q525.6797,1407.5825 524.9949,1408.6492 Q524.3101,1409.7158 524.3101,1411.8159 Q524.3101,1413.9077 524.9949,1414.9744 Q525.6797,1416.041 527.0244,1416.041 Q527.6553,1416.041 528.2488,1415.7712 Q528.8423,1415.5015 529.4731,1414.9204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="90" x="541" y="1416.0352">Pattern_ConjArt</text><!--MD5=[f2181afd1d257d8b29f81f2ee7b73b5a]
+class Pattern_ConjVerb--><rect fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="32" id="Pattern_ConjVerb" style="stroke:#A80036;stroke-width:1.5;" width="133" x="343.5" y="1395.5"/><ellipse cx="358.5" cy="1411.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M360.9731,1417.6431 Q360.3921,1417.9419 359.7529,1418.0913 Q359.1138,1418.2407 358.4082,1418.2407 Q355.9014,1418.2407 354.5815,1416.5889 Q353.2617,1414.937 353.2617,1411.8159 Q353.2617,1408.6865 354.5815,1407.0347 Q355.9014,1405.3828 358.4082,1405.3828 Q359.1138,1405.3828 359.7612,1405.5322 Q360.4087,1405.6816 360.9731,1405.9805 L360.9731,1408.7031 Q360.3423,1408.1221 359.7488,1407.8523 Q359.1553,1407.5825 358.5244,1407.5825 Q357.1797,1407.5825 356.4949,1408.6492 Q355.8101,1409.7158 355.8101,1411.8159 Q355.8101,1413.9077 356.4949,1414.9744 Q357.1797,1416.041 358.5244,1416.041 Q359.1553,1416.041 359.7488,1415.7712 Q360.3423,1415.5015 360.9731,1414.9204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="101" x="372.5" y="1416.0352">Pattern_ConjVerb</text><!--MD5=[210f05ad84ecfe37f8378e5618b7165d]
+class MultipleChoice--><rect fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="32" id="MultipleChoice" style="stroke:#A80036;stroke-width:1.5;" width="115" x="926.5" y="1395.5"/><ellipse cx="941.5" cy="1411.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M943.9731,1417.6431 Q943.3921,1417.9419 942.7529,1418.0913 Q942.1138,1418.2407 941.4082,1418.2407 Q938.9014,1418.2407 937.5815,1416.5889 Q936.2617,1414.937 936.2617,1411.8159 Q936.2617,1408.6865 937.5815,1407.0347 Q938.9014,1405.3828 941.4082,1405.3828 Q942.1138,1405.3828 942.7612,1405.5322 Q943.4087,1405.6816 943.9731,1405.9805 L943.9731,1408.7031 Q943.3423,1408.1221 942.7488,1407.8523 Q942.1553,1407.5825 941.5244,1407.5825 Q940.1797,1407.5825 939.4949,1408.6492 Q938.8101,1409.7158 938.8101,1411.8159 Q938.8101,1413.9077 939.4949,1414.9744 Q940.1797,1416.041 941.5244,1416.041 Q942.1553,1416.041 942.7488,1415.7712 Q943.3423,1415.5015 943.9731,1414.9204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="83" x="955.5" y="1416.0352">MultipleChoice</text><!--MD5=[a7f6a802ab6597d7eb8fd1d2ac10492f]
+class n_Options--><rect fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="32" id="n_Options" style="stroke:#A80036;stroke-width:1.5;" width="89" x="1076.5" y="1395.5"/><ellipse cx="1091.5" cy="1411.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1093.9731,1417.6431 Q1093.3921,1417.9419 1092.7529,1418.0913 Q1092.1138,1418.2407 1091.4082,1418.2407 Q1088.9014,1418.2407 1087.5815,1416.5889 Q1086.2617,1414.937 1086.2617,1411.8159 Q1086.2617,1408.6865 1087.5815,1407.0347 Q1088.9014,1405.3828 1091.4082,1405.3828 Q1092.1138,1405.3828 1092.7612,1405.5322 Q1093.4087,1405.6816 1093.9731,1405.9805 L1093.9731,1408.7031 Q1093.3423,1408.1221 1092.7488,1407.8523 Q1092.1553,1407.5825 1091.5244,1407.5825 Q1090.1797,1407.5825 1089.4949,1408.6492 Q1088.8101,1409.7158 1088.8101,1411.8159 Q1088.8101,1413.9077 1089.4949,1414.9744 Q1090.1797,1416.041 1091.5244,1416.041 Q1092.1553,1416.041 1092.7488,1415.7712 Q1093.3423,1415.5015 1093.9731,1414.9204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="57" x="1105.5" y="1416.0352">n_Options</text><!--MD5=[7b8edab24d4de748dab3582e455e67cc]
+class Life--><rect fill="#FEFECE" filter="url(#f1i7lmwurmru9x)" height="32" id="Life" style="stroke:#A80036;stroke-width:1.5;" width="52" x="1201" y="1395.5"/><ellipse cx="1216" cy="1411.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1218.4731,1417.6431 Q1217.8921,1417.9419 1217.2529,1418.0913 Q1216.6138,1418.2407 1215.9082,1418.2407 Q1213.4014,1418.2407 1212.0815,1416.5889 Q1210.7617,1414.937 1210.7617,1411.8159 Q1210.7617,1408.6865 1212.0815,1407.0347 Q1213.4014,1405.3828 1215.9082,1405.3828 Q1216.6138,1405.3828 1217.2612,1405.5322 Q1217.9087,1405.6816 1218.4731,1405.9805 L1218.4731,1408.7031 Q1217.8423,1408.1221 1217.2488,1407.8523 Q1216.6553,1407.5825 1216.0244,1407.5825 Q1214.6797,1407.5825 1213.9949,1408.6492 Q1213.3101,1409.7158 1213.3101,1411.8159 Q1213.3101,1413.9077 1213.9949,1414.9744 Q1214.6797,1416.041 1216.0244,1416.041 Q1216.6553,1416.041 1217.2488,1415.7712 Q1217.8423,1415.5015 1218.4731,1414.9204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="20" x="1230" y="1416.0352">Life</text><!--MD5=[498b8003cbb9c14002b4271628484351]
+link Grammar to ConjAdj--><path codeLine="206" d="M573,1162.73 C573,1189.97 573,1217.84 573,1239.35 " fill="none" id="Grammar-to-ConjAdj" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="573,1252.49,577,1246.49,573,1240.49,569,1246.49,573,1252.49" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[631200b18db66df28d6ee8b907b74c0d]
+link Grammar to ConjArt--><path codeLine="207" d="M625.58,1145.51 C646.32,1178.45 669.09,1214.61 685.59,1240.81 " fill="none" id="Grammar-to-ConjArt" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="692.7,1252.11,692.8868,1244.9013,686.3045,1241.9563,686.1177,1249.165,692.7,1252.11" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[949a307cf10562c0d44cba4896002efd]
+link Grammar to ConjVerb--><path codeLine="208" d="M520.33,1142.12 C497.88,1176.27 472.81,1214.4 454.96,1241.56 " fill="none" id="Grammar-to-ConjVerb" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="447.78,1252.48,454.4194,1249.666,454.3754,1242.455,447.736,1245.269,447.78,1252.48" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c8b60c4e4fa2023b775290d28399e972]
+link Grammar to Gender--><path codeLine="209" d="M520.26,1096.94 C458.64,1137.77 357.43,1204.83 297.01,1244.87 " fill="none" id="Grammar-to-Gender" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="285.86,1252.26,293.0711,1252.2798,295.8628,1245.631,288.6517,1245.6112,285.86,1252.26" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[01a2e04289eefa46970f9de88ad0aba9]
+link Controller to View--><path codeLine="213" d="M1524.22,155.1 C1529.85,170.58 1535.93,187.31 1541.46,202.52 " fill="none" id="Controller-to-View" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1545.95,214.86,1547.6581,207.8541,1541.848,203.5829,1540.14,210.5888,1545.95,214.86" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1534.8477" y="204.3644">1</text><!--MD5=[7a25e1c0cf9f57ccf31195bd84e79339]
+link Controller to Model--><path codeLine="214" d="M1480.53,155.1 C1470.32,179.29 1458.82,206.55 1450.51,226.23 " fill="none" id="Controller-to-Model" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1445.44,238.24,1451.4538,234.2608,1450.0937,227.1791,1444.0799,231.1583,1445.44,238.24" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1438.2788" y="227.6942">1</text><!--MD5=[fbf26387acebee23c0f109bbefe53776]
+link GameController to GameView--><path codeLine="216" d="M823.21,615.21 C832.48,641.71 844.16,675.11 854.8,705.53 " fill="none" id="GameController-to-GameView" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="859.13,717.91,860.9208,710.9248,855.1617,706.5851,853.3709,713.5703,859.13,717.91" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="848.1528" y="707.3052">1</text><!--MD5=[75a3713b03f00079dc01e09775ea4a63]
+link GameController to Game--><path codeLine="217" d="M789.67,615.21 C782.5,636.82 773.81,663.02 765.37,688.45 " fill="none" id="GameController-to-Game" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="761.25,700.85,766.9329,696.411,765.021,689.4579,759.3381,693.897,761.25,700.85" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="755.4199" y="690.1451">1</text><!--MD5=[7273d379aaf150999eeba3389fdb68e9]
+link PlayController to PlayView--><path codeLine="219" d="M1135.62,422.3 C1136.27,449.8 1137.32,493.65 1138.08,525.29 " fill="none" id="PlayController-to-PlayView" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1138.39,538.44,1142.2505,532.3493,1138.1132,526.4432,1134.2526,532.5339,1138.39,538.44" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1129.2663" y="527.7496">1</text><!--MD5=[d0a2fe0c746014170917b7047b94695a]
+link PlayController to Play--><path codeLine="220" d="M1079.48,421 C1076.02,423.73 1072.81,426.73 1070,430 C1046.81,457 1035.46,496.42 1029.97,525.52 " fill="none" id="PlayController-to-Play" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1027.78,538.47,1032.7205,533.2173,1029.772,526.6365,1024.8315,531.8892,1027.78,538.47" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1019.4826" y="527.7869">1</text><!--MD5=[34e831f2db2903474e2b927854be4efe]
+link MenuController to MenuView--><path codeLine="222" d="M1261.2,125.28 C1269.03,149.89 1280.93,187.29 1289.86,215.35 " fill="none" id="MenuController-to-MenuView" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1293.85,227.9,1295.8415,220.9693,1290.2099,216.4654,1288.2184,223.3961,1293.85,227.9" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1282.8884" y="217.1998">1</text><!--MD5=[a13a7bdcb10f29a30b68e259e448688c]
+link MenuController to Menu--><path codeLine="223" d="M1242.29,125.28 C1232.01,150 1216.38,187.63 1204.7,215.73 " fill="none" id="MenuController-to-Menu" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1199.64,227.9,1205.6359,223.8939,1204.2441,216.8184,1198.2482,220.8245,1199.64,227.9" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1193.2585" y="217.1998">1</text><!--MD5=[987e0f3791648705df0b0543063556bd]
+link SettingsController to SettingsView--><path codeLine="225" d="M1228.87,829.54 C1232.41,877.15 1238.43,958.23 1242.31,1010.43 " fill="none" id="SettingsController-to-SettingsView" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1243.3,1023.68,1246.8402,1017.3977,1242.4028,1011.7136,1238.8626,1017.9958,1243.3,1023.68" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1234.1066" y="1013.3005">1</text><!--MD5=[11626af9c750c2e9fd1b0f1e9ff6aefc]
+link SettingsController to Settings--><path codeLine="226" d="M1210.96,829.54 C1190.92,880.86 1155.71,971.07 1135.8,1022.07 " fill="none" id="SettingsController-to-Settings" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1130.97,1034.45,1136.8736,1030.3091,1135.3219,1023.2669,1129.4183,1027.4078,1130.97,1034.45" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1124.4252" y="1023.762">1</text><!--MD5=[90bf410e8abf046ba2b313f73c21da22]
+link Settings to Setting--><path codeLine="229" d="M1121,1087.63 C1121,1117.37 1121,1167.65 1121,1209.06 " fill="none" id="Settings-to-Setting" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1121,1222.16,1125,1216.16,1121,1210.16,1117,1216.16,1121,1222.16" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="6" x="1114.6344" y="1211.9195">*</text><!--MD5=[4409bde7af7ffe657421eb7114eaee46]
+link Game to Grammar--><path codeLine="231" d="M679.94,879.08 C664.72,904.82 647.98,933.15 632.35,959.6 " fill="none" id="Game-to-Grammar" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="625.72,970.8,632.2153,967.6677,631.8221,960.4673,625.3268,963.5996,625.72,970.8" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="633.3418" y="955.2298">1</text><!--MD5=[11ce963481be93bee1d2ca9185402404]
+link Game to Database--><path codeLine="232" d="M737.89,879.08 C739.88,908.71 742.09,941.77 744.07,971.44 " fill="none" id="Game-to-Database" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="744.97,984.81,748.5588,978.5554,744.1656,972.837,740.5768,979.0916,744.97,984.81" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="736.0811" y="974.1731">1</text><!--MD5=[0743ae5b5c7f66c981b067282322b307]
+link Game to Settings--><path codeLine="233" d="M775.87,879.05 C785.73,893.59 797.14,907.62 810,919 C820.51,928.3 985.76,1001.05 1070.98,1038.24 " fill="none" id="Game-to-Settings" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1082.95,1043.46,1079.0449,1037.3978,1071.947,1038.6709,1075.8522,1044.7331,1082.95,1043.46" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1066.9342" y="1036.289">1</text><!--MD5=[297c15c9cbda81efa001613452a83a61]
+link Menu to PlayController--><path codeLine="235" d="M1178.97,281.32 C1170.75,302.48 1159,332.73 1149.71,356.64 " fill="none" id="Menu-to-PlayController" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1144.98,368.82,1150.882,364.6768,1149.3274,357.6352,1143.4255,361.7785,1144.98,368.82" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1138.4376" y="358.1003">1</text><!--MD5=[e62c1ed3e25a44e727e7fe716050fc9c]
+link Menu to SettingsController--><path codeLine="236" d="M1196.89,281.02 C1200.64,294.3 1204.78,310.88 1207,326 C1228.68,473.94 1228.89,651.11 1227.38,737.09 " fill="none" id="Menu-to-SettingsController" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1227.13,750.33,1231.2414,744.4058,1227.3541,738.3321,1223.2428,744.2563,1227.13,750.33" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1218.6367" y="739.8293">1</text><!--MD5=[1e7faaafd20c50857ff2a773e3ec76a0]
+link Play to Game--><path codeLine="238" d="M1006.53,591.66 C994.02,607.57 976.29,627.49 957,641 C899.2,681.48 867.57,660.2 810,701 C807.3,702.91 804.64,704.93 802.01,707.04 " fill="none" id="Play-to-Game" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="792.05,715.57,799.2089,714.704,801.1629,707.7627,794.004,708.6287,792.05,715.57" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="6" x="800.1283" y="702.6898">*</text><!--MD5=[606047087821a0600d01452a6d22a5ed]
+reverse link Gender to GenderDet_Gender--><path codeLine="259" d="M197.87,1318.17 C164.67,1343.95 122.64,1376.6 98.49,1395.36 " fill="none" id="Gender-backto-GenderDet_Gender" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="193.72,1312.52,213.81,1305.78,202.31,1323.58,193.72,1312.52" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[81eac3612fa3d9a1ae9267b8b32e9697]
+reverse link Gender to Pattern_Gender--><path codeLine="260" d="M247,1326.12 C247,1350.37 247,1378.49 247,1395.36 " fill="none" id="Gender-backto-Pattern_Gender" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="240,1325.78,247,1305.78,254,1325.78,240,1325.78" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e1d808b7a0e27c513466be731a266e78]
+reverse link ConjArt to Lookup_Article--><path codeLine="262" d="M715.31,1325.75 C718.67,1350.09 722.57,1378.4 724.91,1395.36 " fill="none" id="ConjArt-backto-Lookup_Article" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="708.35,1326.55,712.56,1305.78,722.22,1324.64,708.35,1326.55" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[dbc8fd5af6dc72530d4f472ca355f574]
+reverse link ConjAdj to Pattern_ConjArt--><path codeLine="264" d="M573,1326.12 C573,1350.37 573,1378.49 573,1395.36 " fill="none" id="ConjAdj-backto-Pattern_ConjArt" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="566,1325.78,573,1305.78,580,1325.78,566,1325.78" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6a0a2452d96036a136162a87bca54d98]
+reverse link ConjVerb to Pattern_ConjVerb--><path codeLine="266" d="M423.64,1325.75 C419.72,1350.09 415.17,1378.4 412.44,1395.36 " fill="none" id="ConjVerb-backto-Pattern_ConjVerb" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="416.76,1324.42,426.85,1305.78,430.58,1326.64,416.76,1324.42" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3dbeb5eafd2cdd5e1e96c71bb995a464]
+link Games to Game--><path codeLine="274" d="M624.1702,581.7102 C624.2318,581.8287 624.2938,581.9478 624.3561,582.0675 C624.6051,582.5463 624.859,583.0342 625.1174,583.531 C626.1514,585.5184 627.2598,587.6488 628.4355,589.9088 C630.787,594.4286 633.4078,599.4663 636.2413,604.9125 C647.575,626.6975 662.31,655.02 676.81,682.89 " fill="none" id="Games-to-Game" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="683.13,679.89,686.15,700.86,670.71,686.35,683.13,679.89" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4997bbb005e5d8dffcceb205dc897c5b]
+reverse link Setting to MultipleChoice--><path codeLine="277" d="M1071.05,1327.58 C1045.89,1351.55 1017.12,1378.95 999.77,1395.48 " fill="none" id="Setting-backto-MultipleChoice" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1066.41,1322.33,1085.72,1313.61,1076.07,1332.47,1066.41,1322.33" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f1e01351c7e45f71ee5244be6e25f4ea]
+reverse link Setting to n_Options--><path codeLine="278" d="M1121,1355.73 C1121,1370.82 1121,1385.15 1121,1395.36 " fill="none" id="Setting-backto-n_Options" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1114,1355.72,1121,1335.72,1128,1355.72,1114,1355.72" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b83157b26ab41f5f93dd90dde95947f7]
+reverse link Setting to Life--><path codeLine="279" d="M1168.73,1338.76 C1185.7,1359.66 1203.41,1381.45 1214.78,1395.46 " fill="none" id="Setting-backto-Life" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1163.18,1343.03,1156,1323.09,1174.05,1334.2,1163.18,1343.03" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[131b60a171cb8e6a9c0c8d26af7e4e48]
+link GenderDet_Gender to genderdeterminator--><path codeLine="282" d="M116.33,1427.56 C153.63,1442.62 211.21,1465.86 252.35,1482.46 " fill="none" id="GenderDet_Gender-to-genderdeterminator" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="264.55,1487.39,260.4853,1481.4336,253.4238,1482.8947,257.4885,1488.8511,264.55,1487.39" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ff13da6a1dd68a876c2bb5bcdb9223c1]
+link Pattern_Gender to pattern--><path codeLine="284" d="M308.1,1424.14 C344.59,1431.4 385.32,1440.16 393,1444.5 C407.19,1452.51 419.94,1465.38 429.58,1476.97 " fill="none" id="Pattern_Gender-to-pattern" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="437.82,1487.48,437.2681,1480.29,430.419,1478.0341,430.9709,1485.2241,437.82,1487.48" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[67d78929a74714178493a0b283ea09ba]
+link Pattern_ConjArt to pattern--><path codeLine="285" d="M532.04,1427.63 C521.79,1432.3 511.12,1437.96 502,1444.5 C489.34,1453.58 477.31,1465.98 467.84,1476.98 " fill="none" id="Pattern_ConjArt-to-pattern" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="459.28,1487.34,466.1853,1485.2623,466.9233,1478.089,460.018,1480.1668,459.28,1487.34" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8c18664530eeea1ce128ca19dd922e9b]
+link Pattern_ConjVerb to pattern--><path codeLine="286" d="M416.45,1427.77 C421.94,1440.78 429.96,1459.78 436.55,1475.37 " fill="none" id="Pattern_ConjVerb-to-pattern" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="441.65,1487.46,442.9999,1480.3764,436.9803,1476.4058,435.6305,1483.4895,441.65,1487.46" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[fbeefddd68e641a450073d2ad6edef07]
+link Lookup_Article to json--><path codeLine="288" d="M697.04,1427.56 C667.21,1442.56 621.23,1465.68 588.24,1482.27 " fill="none" id="Lookup_Article-to-json" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="576.28,1488.28,583.4376,1489.1568,586.9999,1482.8871,579.8423,1482.0102,576.28,1488.28" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[196ec68e096546bdc000b2073598cc85]
+link Database to json--><path codeLine="289" d="M790.02,1137.06 C826.53,1216.98 866,1343.31 803,1427.5 C777.32,1461.82 654.61,1485.83 589.23,1496.41 " fill="none" id="Database-to-json" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="576.2,1498.47,582.7473,1501.492,588.0551,1496.6106,581.5077,1493.5886,576.2,1498.47" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[65105a763b7712ffb57c660e2edec2c2]
+link ConjugateArticle to ConjugateVerb--><!--MD5=[4b5e013fa438da08a36ae7a9be84e158]
+link ConjugateArticle to ConjugateAdjective--><!--MD5=[0a4351e730f29877bf3d40ebef20502f]
+link ConjugateAdjective to TranslatePfVerbs--><!--MD5=[8c23884e85a053c91714ce63cbddd296]
+@startuml german-language-games
+
+'classes
+abstract class Gender {
+    {abstract} get_gender()
+}
+
+abstract class ConjArt {
+    {abstract} get_conjart()
+}
+
+abstract class ConjAdj {
+    {abstract} get_conjadj()
+}
+
+abstract class ConjVerb {
+    {abstract} get_conjverb()
+}
+
+class Grammar {
+    pronouns
+    cases
+    der_words
+    ein_words
+    tenses
+    conjart_options
+    {static} get_gender()
+    {static} get_conjart()
+    get_conjverb()
+    get_conjadj()
+    get_conjarts()
+    decode_der_ein()
+}
+
+package "Database" <<Database>> {
+    class Database {
+        nouns
+        verbs
+        adjectives
+        pfverbs
+        load_duolingo()
+        load_pfverbs_csv()
+        load_vocab_json()
+        save_vocab_json()
+    }
+}
+
+'mvc
+package MVC <<Rectangle>> {
+    abstract class Model
+    abstract class View {
+        show_prompt()
+        {static} sep()
+        {static} show_try_again()
+    }
+    abstract class Controller{
+        {abstract} __init__()
+        {abstract} run()
+        {abstract} end()
+        {static} quit
+        input_loop()
+    }
+}
+
+'mvc_game
+package "Game MVC" <<Rectangle>> {
+    abstract class Game {
+        name
+        instruction
+        example
+        default_loads
+        {abstract} generate_question()
+        {abstract} generate_answer()
+        {abstract} generate_prompt()
+        {abstract} generate_options()
+        refine_options()
+        load_default()
+    }
+
+    class GameView {
+        {static} show_check()
+        {static} show_end_score()
+        {static} show_score()
+        {static} show_life()
+        {static} format_answer()
+        show_name()
+        {static} show_instruction()
+        {static} show_example()
+    }
+
+    class GameController {
+        life
+        success
+        check_answer()
+        generate_answer_prompt()
+    }
+}
+
+'games
+package "Games" <<Rectangle>> {
+    class ConjugateArticle {
+        n
+        nouns
+        noun
+        form
+        case
+        gender
+        conjart
+        load_nouns()
+    }
+
+    class ConjugateVerb {
+        verbs
+        verb
+        pronoun
+        conjverb
+        load_verbs()
+    }
+
+    class ConjugateAdjective {
+        adjectives
+        adjective
+        noun
+        form
+        case
+        gender
+        conjart
+        pronoun
+        conjverb
+        load_adjectives()
+    }
+
+    class TranslatePfVerbs {
+        n
+        pfverbs
+        pfverb
+        meaning
+        load_pfverbs()
+        {static} to_pfverb()
+    }
+}
+
+'menu
+package "Menu MVC" <<Rectangle>> {
+    class Menu {
+        menu
+    }
+
+    class MenuView {
+        {static} exit_message()
+    }
+
+    class MenuController {
+        {static} run_item()
+    }
+}
+
+'play
+package "Play MVC" <<Rectangle>> {
+    class Play {
+        games
+    }
+
+    class PlayView {
+        {static} format_options()
+    }
+
+    class PlayController{
+        {static} run_game()
+    }
+}
+
+'settings menu
+package "Settings MVC" <<Rectangle>> {
+    class Settings {
+        settings
+    }
+
+    class SettingsView {
+        {static} format_options
+        {static} settings_saved()
+    }
+
+    class SettingsController {
+        set_setting()
+        update_prompt()
+        input_loop_set_setting()
+    }
+}
+
+abstract class Setting {
+    value
+    name
+    set_hint
+    options
+    {abstract} set_value()
+}
+
+'libraries
+package imports <<Folder>> {
+    entity genderdeterminator
+    entity pattern
+    entity json
+}
+
+'compositions
+Grammar - -* ConjAdj
+Grammar - -* ConjArt
+Grammar - -* ConjVerb
+Grammar - -* Gender
+
+'aggregations
+'mvc
+Controller - -o "1" View
+Controller - -o "1" Model
+
+GameController - -o "1" GameView
+GameController - -o "1" Game
+
+PlayController - -o "1" PlayView
+PlayController - -o "1" Play
+
+MenuController - -o "1" MenuView
+MenuController - -o "1" Menu
+
+SettingsController - -o "1" SettingsView
+SettingsController - -o "1" Settings
+
+'has many
+Settings - -o "*" Setting
+
+Game - -o "1" Grammar
+Game - -o "1" Database
+Game - -o "1" Settings
+
+Menu - -o "1" PlayController
+Menu - -o "1" SettingsController
+
+Play - -o "*" Game
+
+'inheritance
+'mvc
+' Model ()- Game
+' Model ()- Menu
+' Model ()- Play
+' Model ()- Settings
+
+' View ()- GameView
+' View ()- MenuView
+' View ()- PlayView
+' View ()- SettingsView
+
+' Controller ()- GameController
+' Controller ()- MenuController
+' Controller ()- PlayController
+' Controller ()- SettingsController
+
+'implementations
+'grammar
+Gender <|.. GenderDet_Gender
+Gender <|.. Pattern_Gender
+
+ConjArt <|.. Lookup_Article
+
+ConjAdj <|.. Pattern_ConjArt
+
+ConjVerb <|.. Pattern_ConjVerb
+
+'games
+' Game <|.. ConjugateArticle
+' Game <|.. ConjugateVerb
+' Game <|.. ConjugateAdjective
+' Game <|.. TranslatePfVerbs
+
+Games ..|> Game
+
+'settings
+Setting <|.. MultipleChoice
+Setting <|.. n_Options
+Setting <|.. Life
+
+' libraries
+GenderDet_Gender - -o genderdeterminator
+
+Pattern_Gender - -o pattern
+Pattern_ConjArt - -o pattern
+Pattern_ConjVerb - -o pattern
+
+Lookup_Article - -o json
+Database - -o json
+
+hide empty members
+
+@enduml
+
+@startuml german-language-games
+
+abstract class Gender {
+    {abstract} get_gender()
+}
+
+abstract class ConjArt {
+    {abstract} get_conjart()
+}
+
+abstract class ConjAdj {
+    {abstract} get_conjadj()
+}
+
+abstract class ConjVerb {
+    {abstract} get_conjverb()
+}
+
+class Grammar {
+    pronouns
+    cases
+    der_words
+    ein_words
+    tenses
+    conjart_options
+    {static} get_gender()
+    {static} get_conjart()
+    get_conjverb()
+    get_conjadj()
+    get_conjarts()
+    decode_der_ein()
+}
+
+package "Database" <<Database>> {
+    class Database {
+        nouns
+        verbs
+        adjectives
+        pfverbs
+        load_duolingo()
+        load_pfverbs_csv()
+        load_vocab_json()
+        save_vocab_json()
+    }
+}
+
+package MVC <<Rectangle>> {
+    abstract class Model
+    abstract class View {
+        show_prompt()
+        {static} sep()
+        {static} show_try_again()
+    }
+    abstract class Controller{
+        {abstract} __init__()
+        {abstract} run()
+        {abstract} end()
+        {static} quit
+        input_loop()
+    }
+}
+
+package "Game MVC" <<Rectangle>> {
+    abstract class Game {
+        name
+        instruction
+        example
+        default_loads
+        {abstract} generate_question()
+        {abstract} generate_answer()
+        {abstract} generate_prompt()
+        {abstract} generate_options()
+        refine_options()
+        load_default()
+    }
+
+    class GameView {
+        {static} show_check()
+        {static} show_end_score()
+        {static} show_score()
+        {static} show_life()
+        {static} format_answer()
+        show_name()
+        {static} show_instruction()
+        {static} show_example()
+    }
+
+    class GameController {
+        life
+        success
+        check_answer()
+        generate_answer_prompt()
+    }
+}
+
+package "Games" <<Rectangle>> {
+    class ConjugateArticle {
+        n
+        nouns
+        noun
+        form
+        case
+        gender
+        conjart
+        load_nouns()
+    }
+
+    class ConjugateVerb {
+        verbs
+        verb
+        pronoun
+        conjverb
+        load_verbs()
+    }
+
+    class ConjugateAdjective {
+        adjectives
+        adjective
+        noun
+        form
+        case
+        gender
+        conjart
+        pronoun
+        conjverb
+        load_adjectives()
+    }
+
+    class TranslatePfVerbs {
+        n
+        pfverbs
+        pfverb
+        meaning
+        load_pfverbs()
+        {static} to_pfverb()
+    }
+}
+
+package "Menu MVC" <<Rectangle>> {
+    class Menu {
+        menu
+    }
+
+    class MenuView {
+        {static} exit_message()
+    }
+
+    class MenuController {
+        {static} run_item()
+    }
+}
+
+package "Play MVC" <<Rectangle>> {
+    class Play {
+        games
+    }
+
+    class PlayView {
+        {static} format_options()
+    }
+
+    class PlayController{
+        {static} run_game()
+    }
+}
+
+package "Settings MVC" <<Rectangle>> {
+    class Settings {
+        settings
+    }
+
+    class SettingsView {
+        {static} format_options
+        {static} settings_saved()
+    }
+
+    class SettingsController {
+        set_setting()
+        update_prompt()
+        input_loop_set_setting()
+    }
+}
+
+abstract class Setting {
+    value
+    name
+    set_hint
+    options
+    {abstract} set_value()
+}
+
+package imports <<Folder>> {
+    entity genderdeterminator
+    entity pattern
+    entity json
+}
+
+Grammar - -* ConjAdj
+Grammar - -* ConjArt
+Grammar - -* ConjVerb
+Grammar - -* Gender
+
+Controller - -o "1" View
+Controller - -o "1" Model
+
+GameController - -o "1" GameView
+GameController - -o "1" Game
+
+PlayController - -o "1" PlayView
+PlayController - -o "1" Play
+
+MenuController - -o "1" MenuView
+MenuController - -o "1" Menu
+
+SettingsController - -o "1" SettingsView
+SettingsController - -o "1" Settings
+
+Settings - -o "*" Setting
+
+Game - -o "1" Grammar
+Game - -o "1" Database
+Game - -o "1" Settings
+
+Menu - -o "1" PlayController
+Menu - -o "1" SettingsController
+
+Play - -o "*" Game
+
+
+
+
+Gender <|.. GenderDet_Gender
+Gender <|.. Pattern_Gender
+
+ConjArt <|.. Lookup_Article
+
+ConjAdj <|.. Pattern_ConjArt
+
+ConjVerb <|.. Pattern_ConjVerb
+
+
+Games ..|> Game
+
+Setting <|.. MultipleChoice
+Setting <|.. n_Options
+Setting <|.. Life
+
+GenderDet_Gender - -o genderdeterminator
+
+Pattern_Gender - -o pattern
+Pattern_ConjArt - -o pattern
+Pattern_ConjVerb - -o pattern
+
+Lookup_Article - -o json
+Database - -o json
+
+hide empty members
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 19:40:07 ICT 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

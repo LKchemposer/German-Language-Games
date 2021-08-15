@@ -1,29 +1,38 @@
 from abc import ABC, abstractmethod
+from typing import Iterable
 
 
 class Model(ABC):
-    '''Handles data abstractions.'''
+    '''Handles data abstractions and transformations.'''
     pass
 
 
 class View(ABC):
     '''Handles formatting and displaying messages.'''
 
-    def show_options(self, options: list, core_msg: str, post_msgs=[]) -> str:
-        '''Shows options to player.'''
-        opts = [f'({i}) {option}' for i, option in enumerate(options, 1)]
+    def show_prompt(self, core_msg: str, options: list = [], post_msgs: list = []) -> str:
+        '''Shows options to user.'''
+        if options:
+            opts = [f'({i}) {option}' for i, option in enumerate(options, 1)]
 
-        lines = [self.sep(len(core_msg)), core_msg]
-        lines.extend(opts)
-        lines.extend(post_msgs)
-        lines.append('')
+            lines = [self.sep(len(core_msg)), core_msg]
+            lines.extend(opts)
+            lines.extend(post_msgs)
+            lines.append('')
 
-        prompt = '\n'.join(lines)
+            prompt = '\n'.join(lines)
+        else:
+            prompt = f'{core_msg}: '
         return prompt
 
     @staticmethod
     def sep(width: int, ch: str = '='):
+        '''Adds a separator'''
         return ch * width
+
+    @staticmethod
+    def show_try_again():
+        print('Try again')
 
 
 class Controller(ABC):
@@ -43,11 +52,11 @@ class Controller(ABC):
         pass
 
     @staticmethod
-    def quit(input_, quits=['q', 'quit', 'exit']) -> bool:
+    def quit(input_: str, quits: list = ['q', 'quit', 'exit']) -> bool:
         '''Checks if user wants to quit.'''
         return input_.strip().lower() in quits
 
-    def input_loop(self, prompt: str, options: dict, func, autoupdate: bool = False, update_func=None):
+    def input_loop(self, prompt: str, options: Iterable, func, autoupdate: bool = False, update_func=None):
         '''Loops input until a valid option is given, in which case, func is called.'''
         while True:
             if autoupdate:
@@ -63,4 +72,4 @@ class Controller(ABC):
                 func(item)
 
             else:
-                print('Try again!')
+                self.view.show_try_again()

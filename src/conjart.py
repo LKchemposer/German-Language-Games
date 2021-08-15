@@ -13,13 +13,13 @@ class ConjArt(ABC):
         pass
 
 
-class Pattern_ConjArt(ConjArt):
-    '''Uses pattern package.'''
+# class Pattern_ConjArt(ConjArt):
+#     '''Uses pattern package.'''
 
-    @staticmethod
-    def get_conjart(gender: str, form: str, case: str) -> str:
-        conjart = de.article('', function=form, gender=gender, role=case)
-        return conjart
+#     @staticmethod
+#     def get_conjart(gender: str, form: str, case: str) -> str:
+#         conjart = de.article('', function=form, gender=gender, role=case)
+#         return conjart
 
 
 class Lookup_ConjArt(ConjArt):

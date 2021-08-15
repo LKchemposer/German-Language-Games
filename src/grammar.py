@@ -2,7 +2,6 @@ from conjadj import ConjAdj, Pattern_ConjAdj
 from conjart import ConjArt, Lookup_ConjArt
 from conjverb import ConjVerb, Pattern_ConjVerb
 from gender import Gender, GenderDet_Gender
-from mvc_settings import Settings
 
 
 class Grammar():

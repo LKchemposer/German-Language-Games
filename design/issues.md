@@ -16,8 +16,4 @@ del the plural entry
 
 conj noun for plural dative +n (if not .endswith('n')), singular genitive
 
-
-* docstring
-* type hint
-* change to dataclass
-* output?
+load sequence

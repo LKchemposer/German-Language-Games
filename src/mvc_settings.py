@@ -1,3 +1,4 @@
+from typing import Any
 from mvc import Controller, Model, View
 from settings import Setting, Life, MultipleChoice, n_Options
 
@@ -5,67 +6,61 @@ from settings import Setting, Life, MultipleChoice, n_Options
 class Settings(Model):
 
     settings = {
-            'multiple_choice': MultipleChoice(True),
-            'n_options': n_Options(3),
-            'life': Life(3)
-        }
+        'multiple_choice': MultipleChoice(True),
+        'n_options': n_Options(3),
+        'life': Life(3)
+    }
 
 
 class SettingsView(View):
 
     @staticmethod
-    def format_options(settings: dict):
+    def format_options(settings: dict) -> str:
+        '''Format current settings.'''
         options = [f'{v.name}: {v.value}' for v in settings.values()]
         return options
 
     @staticmethod
-    def settings_saved():
+    def show_settings_saved() -> None:
+        '''Confirms saved settings.'''
         print('Settings saved.')
 
 
 class SettingsController(Controller):
 
-    def __init__(self, view=SettingsView(), model=Settings()):
+    def __init__(self, view: View = SettingsView(), model: Model = Settings()) -> None:
         super().__init__(view, model)
 
-    def run(self):
-        self.input_loop('', self.model.settings, self.set_setting,
-                        autoupdate=True, update_func=self.update_prompt)
+    def run(self) -> None:
+        '''Loops showing current settings until backing to Menu or choosing a setting to change'''
+        self.input_loop('', self.model.settings, self.set_setting, autoupdate=True, update_func=self.update_prompt)
 
-    def set_setting(self, setting: Setting):
-        value = getattr(self, setting.method)(setting)
+    def set_setting(self, setting: Setting) -> None:
+        '''Sets setting to input value.'''
+        prompt = f'set {setting.name}'
+        if setting.set_hint:
+            prompt += f' ({setting.set_hint})'
+        prompt = self.view.show_prompt(prompt, setting.options)
+        value = self.input_loop_set_setting(prompt, setting)
         setting.value = value
 
-    def update_prompt(self):
+    def update_prompt(self) -> str:
+        '''Updates prompt per current settings.'''
         options = self.view.format_options(self.model.settings)
-        prompt = self.view.show_options(
-            options, 'Settings', ['or Q to go back to Menu'])
+        prompt = self.view.show_prompt('Settings', options, ['or Q to go back to Menu'])
         return prompt
 
-    def choose_one(self, setting: Setting):
-        prompt = self.view.show_options(setting.options, f'set {setting.name}')
-        value = self.input_loop_set_setting(prompt, options=setting.options)
-        return value
-
-    def fill_in(self, setting: Setting):
-        prompt = f'set {setting.name}: '
-        value = self.input_loop_set_setting(
-            prompt, condition=setting.is_valid)
-        return value
-
-    def input_loop_set_setting(self, prompt: str, options=[], condition=None):
+    def input_loop_set_setting(self, prompt: str, setting: Setting) -> Any:
+        '''Loops set setting until choosing a valid input, defined in the Setting class.'''
         value = None
         while value is None:
             key = input(prompt)
             if self.quit(key):
                 break
-            if options and key.isdigit() and int(key) - 1 in range(len(options)):
-                value = options[int(key) - 1]
-            elif condition(key):
-                value = int(key)
-            else:
-                print('Try again!')
+            value = setting.set_value(key)
+            if value is None:
+                self.view.show_try_again()
         return value
 
     def end(self):
-        self.view.settings_saved()
+        self.view.show_settings_saved()

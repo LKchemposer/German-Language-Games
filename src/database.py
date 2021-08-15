@@ -33,12 +33,6 @@ class Database():
         self.nouns = df[df['pos'] == 'Noun'][[
             'noun', 'gender']].to_dict('records')
 
-    # def load_duolingo_dev(self):
-    #     self.nouns = [{'noun': 'Hund', 'gender': 'm'}, {
-    #         'noun': 'Katze', 'gender': None}, {'noun': 'Kind', 'gender': 'n'}]
-    #     self.verbs = ['sein', 'kochen', 'essen']
-    #     self.adjectives = ['schön', 'traurig', 'neugierig']
-
     def load_pfverbs_csv(self, csv_path: str = '../data/pfverbs.csv') -> None:
         '''Loads prefix verbs from a csv.'''
         df = pd.read_csv(csv_path)
@@ -50,7 +44,7 @@ class Database():
         vocab = dict(zip(['nouns', 'verbs', 'adjectives', 'pfverbs'], [
                      self.nouns, self.verbs, self.adjectives, self.pfverbs]))
         with open(vocab_path, 'w') as js:
-            js.write(json.dumps(vocab))
+            js.write(json.dumps(vocab, indent=4))
 
     def load_vocab_json(self, vocab_path: str = '../data/vocab.json') -> None:
         '''Loads vocab list from a json.'''

@@ -1,13 +1,18 @@
+from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 from typing import Any, List
 
 
 @dataclass
-class Setting():
+class Setting(ABC):
     value: Any
     name: str
-    method: str
+    set_hint: str = ''
     options: List[bool] = field(default_factory=list)
+
+    @abstractmethod
+    def set_value():
+        pass
 
 
 @dataclass
@@ -15,13 +20,15 @@ class MultipleChoice(Setting):
 
     value: bool
     name: str = 'Multiple Choice?'
-    method: str = 'choose_one'
 
     def __post_init__(self):
         self.options = [True, False]
 
-    def is_valid(self, v):
-        return v.isdigit() and int(v) - 1 in range(len(self.options))
+    def set_value(self, v):
+        if v.isdigit() and int(v) - 1 in range(len(self.options)):
+            return self.options[int(v) - 1]
+        else:
+            return
 
 
 @dataclass
@@ -29,11 +36,14 @@ class n_Options(Setting):
 
     value: int
     name: str = 'Number of Options (in Multiple Choice)'
-    method: str = 'fill_in'
+    set_hint: str = '2-10'
 
     @staticmethod
-    def is_valid(v):
-        return v.isdigit() and int(v) in range(2, 11)
+    def set_value(v):
+        if v.isdigit() and int(v) in range(2, 11):
+            return int(v)
+        else:
+            return
 
 
 @dataclass
@@ -41,11 +51,16 @@ class Life(Setting):
 
     value: int
     name: str = 'Number of Lives'
-    method: str = 'fill_in'
+    set_hint: str = '1-10, or unlimited'
 
     @staticmethod
-    def is_valid(v):
-        return v.isdigit() and int(v) in range(1, 11)
+    def set_value(v):
+        if v == 'unlimited':
+            return 9999
+        elif v.isdigit() and int(v) in range(1, 11):
+            return int(v)
+        else:
+            return
 
 
 # class ArticleMode(Setting):

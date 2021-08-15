@@ -1,0 +1,294 @@
+@startuml german-language-games
+
+'classes
+abstract class Gender {
+    {abstract} get_gender()
+}
+
+abstract class ConjArt {
+    {abstract} get_conjart()
+}
+
+abstract class ConjAdj {
+    {abstract} get_conjadj()
+}
+
+abstract class ConjVerb {
+    {abstract} get_conjverb()
+}
+
+class Grammar {
+    pronouns
+    cases
+    der_words
+    ein_words
+    tenses
+    conjart_options
+    {static} get_gender()
+    {static} get_conjart()
+    get_conjverb()
+    get_conjadj()
+    get_conjarts()
+    decode_der_ein()
+}
+
+package "Database" <<Database>> {
+    class Database {
+        nouns
+        verbs
+        adjectives
+        pfverbs
+        load_duolingo()
+        load_pfverbs_csv()
+        load_vocab_json()
+        save_vocab_json()
+    }
+}
+
+'mvc
+package MVC <<Rectangle>> {
+    abstract class Model
+    abstract class View {
+        show_prompt()
+        {static} sep()
+        {static} show_try_again()
+    }
+    abstract class Controller{
+        {abstract} __init__()
+        {abstract} run()
+        {abstract} end()
+        {static} quit
+        input_loop()
+    }
+}
+
+'mvc_game
+package "Game MVC" <<Rectangle>> {
+    abstract class Game {
+        name
+        instruction
+        example
+        default_loads
+        {abstract} generate_question()
+        {abstract} generate_answer()
+        {abstract} generate_prompt()
+        {abstract} generate_options()
+        refine_options()
+        load_default()
+    }
+
+    class GameView {
+        {static} show_check()
+        {static} show_end_score()
+        {static} show_score()
+        {static} show_life()
+        {static} format_answer()
+        show_name()
+        {static} show_instruction()
+        {static} show_example()
+    }
+
+    class GameController {
+        life
+        success
+        check_answer()
+        generate_answer_prompt()
+    }
+}
+
+'games
+package "Games" <<Rectangle>> {
+    class ConjugateArticle {
+        n
+        nouns
+        noun
+        form
+        case
+        gender
+        conjart
+        load_nouns()
+    }
+
+    class ConjugateVerb {
+        verbs
+        verb
+        pronoun
+        conjverb
+        load_verbs()
+    }
+
+    class ConjugateAdjective {
+        adjectives
+        adjective
+        noun
+        form
+        case
+        gender
+        conjart
+        pronoun
+        conjverb
+        load_adjectives()
+    }
+
+    class TranslatePfVerbs {
+        n
+        pfverbs
+        pfverb
+        meaning
+        load_pfverbs()
+        {static} to_pfverb()
+    }
+}
+
+'menu
+package "Menu MVC" <<Rectangle>> {
+    class Menu {
+        menu
+    }
+
+    class MenuView {
+        {static} exit_message()
+    }
+
+    class MenuController {
+        {static} run_item()
+    }
+}
+
+'play
+package "Play MVC" <<Rectangle>> {
+    class Play {
+        games
+    }
+
+    class PlayView {
+        {static} format_options()
+    }
+
+    class PlayController{
+        {static} run_game()
+    }
+}
+
+'settings menu
+package "Settings MVC" <<Rectangle>> {
+    class Settings {
+        settings
+    }
+
+    class SettingsView {
+        {static} format_options
+        {static} settings_saved()
+    }
+
+    class SettingsController {
+        set_setting()
+        update_prompt()
+        input_loop_set_setting()
+    }
+}
+
+abstract class Setting {
+    value
+    name
+    set_hint
+    options
+    {abstract} set_value()
+}
+
+'libraries
+package imports <<Folder>> {
+    entity genderdeterminator
+    entity pattern
+    entity json
+}
+
+'compositions
+Grammar --* ConjAdj
+Grammar --* ConjArt
+Grammar --* ConjVerb
+Grammar --* Gender
+
+'aggregations
+'mvc
+Controller --o "1" View
+Controller --o "1" Model
+
+GameController --o "1" GameView
+GameController --o "1" Game
+
+PlayController --o "1" PlayView
+PlayController --o "1" Play
+
+MenuController --o "1" MenuView
+MenuController --o "1" Menu
+
+SettingsController --o "1" SettingsView
+SettingsController --o "1" Settings
+
+'has many
+Settings --o "*" Setting
+
+Game --o "1" Grammar
+Game --o "1" Database
+Game --o "1" Settings
+
+Menu --o "1" PlayController
+Menu --o "1" SettingsController
+
+Play --o "*" Game
+
+'inheritance
+'mvc
+' Model ()- Game
+' Model ()- Menu
+' Model ()- Play
+' Model ()- Settings
+
+' View ()- GameView
+' View ()- MenuView
+' View ()- PlayView
+' View ()- SettingsView
+
+' Controller ()- GameController
+' Controller ()- MenuController
+' Controller ()- PlayController
+' Controller ()- SettingsController
+
+'implementations
+'grammar
+Gender <|.. GenderDet_Gender
+Gender <|.. Pattern_Gender
+
+ConjArt <|.. Lookup_Article
+
+ConjAdj <|.. Pattern_ConjArt
+
+ConjVerb <|.. Pattern_ConjVerb
+
+'games
+' Game <|.. ConjugateArticle
+' Game <|.. ConjugateVerb
+' Game <|.. ConjugateAdjective
+' Game <|.. TranslatePfVerbs
+
+Games ..|> Game
+
+'settings
+Setting <|.. MultipleChoice
+Setting <|.. n_Options
+Setting <|.. Life
+
+' libraries
+GenderDet_Gender --o genderdeterminator
+
+Pattern_Gender --o pattern
+Pattern_ConjArt --o pattern
+Pattern_ConjVerb --o pattern
+
+Lookup_Article --o json
+Database --o json
+
+hide empty members
+
+@enduml

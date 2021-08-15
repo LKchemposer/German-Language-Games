@@ -18,7 +18,7 @@ class ConjugateArticle(Game):
     def load_nouns(self) -> None:
         '''Loads in nouns from database.'''
         if not self.database.nouns:
-            self.load_default()
+            self.load_default('nouns')
         self.nouns = self.database.nouns
 
     def generate_question(self) -> None:
@@ -68,7 +68,7 @@ class ConjugateVerb(Game):
     def load_verbs(self) -> None:
         'Loads in verbs from database.'
         if not self.database.verbs:
-            self.load_default()
+            self.load_default('verbs')
         self.verbs = self.database.verbs
 
     def generate_question(self) -> None:
@@ -117,7 +117,7 @@ class ConjugateAdjective(Game):
     def load_adjectives(self) -> None:
         'Loads in adjectives from database.'
         if not self.database.adjectives:
-            self.load_default()
+            self.load_default('adjectives')
         self.adjectives = self.database.adjectives
 
     def generate_question(self) -> None:
@@ -172,7 +172,7 @@ class TranslatePfVerbs(Game):
     def load_pfverbs(self) -> None:
         'Loads in prefix verbs from database.'
         if not self.database.pfverbs:
-            self.database.load_pfverbs_csv()
+            self.load_default('pfverbs')
         self.pfverbs = self.database.pfverbs
 
     def generate_question(self) -> None:
