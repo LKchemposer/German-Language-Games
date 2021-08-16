@@ -7,7 +7,6 @@ from pattern import de
 class ConjArt(ABC):
     '''Methods declining article, given the form (der/ein words), case (e.g., nominative), and gender of the noun.'''
 
-    @staticmethod
     @abstractmethod
     def get_conjart():
         pass

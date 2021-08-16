@@ -274,6 +274,8 @@ ConjVerb <|.. Pattern_ConjVerb
 
 Games ..|> Game
 
+ConjugateAdjective --* ConjugateArticle
+
 'settings
 Setting <|.. MultipleChoice
 Setting <|.. n_Options

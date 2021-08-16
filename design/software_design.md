@@ -81,180 +81,192 @@
 
 ## Tech Specs
 ### Concepts
-* **Pattern:** MVC
-    * Model
-        * Grammar, Database, 
-    * View
-        * Game UI
-    * Controller
-        * Event handling
+* MVC
+    * Model: grammar, database, games
+    * View: game UI
+    * Controller: event handling
 
-#### Classes
-* Database:    
-    * load_duolingo
-    * load_separables
+### Classes
+* [x] Database: loads, saves list or dict of nouns, verbs, etc.
 
-* Grammar: dealing with grammar-related actions (e.g., conjugation, declination, etc.)
-    * get_gender(noun: str, method: Gender) -> str
-    * get_article(gender: str, case: str, method: Article) -> str
-    * get_conjverb(verb: str, pronoun: , tense, method: VerbConj) -> str
-    * get_conjadj()
-    
-* Gender(ABC)
-    * get_gender(noun) -> gender
-    ===
-    * GenderDet(Gender)
-    * Linguee(Gender)
-    * Pattern(Gender)
+* [x] Grammar: hub for grammar-related actions: conjugation, declination, etc.
+    * Gender: get gender from noun
+        * GenderDet
+        * Linguee
+        * Pattern
+    * Article
+        * Pattern: only outputs der/die/das and ein
+        * Lookup: search a dict
+            * form: der/die/das, dies-, solch-, kein-, mein-, etc.
+    * VerbConj
+        * Pattern
 
-* Article(ABC)
-    * get_article(gender, case) -> article
-    ===
-    * Pattern(definiteness): only outputs der/die/das and ein
-    * Lookup(word_prefix): search a dict
-        * word_prefix: der/die/das, dies-, solch-, kein-, mein-, etc.
-
-* VerbConj(ABC)
-    * get_conjverb(verb, pronoun, tense) -> conj
-    ===
-    * Pattern
-
-    
-* Game(ABC): define what games should output
-    * Grammar()
-    ---
-    * generate_question -> question
-    * generate_answer -> answer
-    * (get options -> options)
-    * generate_prompt -> prompt
-    ===
-    * GuessArticle
-        * nouns
-        * forms
-        * cases
-        ---
-        * generate_question() -> noun, form, case
-            * random: noun, form, case
-        * generate_answer() -> article
-            * to_gender(noun), to_article(noun, form, case)
-        * generate_prompt() -> "(solch) Maus"
-        * generate_options() -> options
-            * grammar instantiates Lookup_Article, get self.articles
-            * set([article for d in articles[form].values() for article in d.values()])
-
-<!-- have not implemented -->
-    ===
+* [x] Game: define what games should output, shared methods across all games
+    * **abstract**: generate question, answer, prompt, options
+    * ConjugateArticle
+        * generate_question: random noun, form, case
+        * generate_answer: conjart
+        * generate_prompt: `"(solch) Maus"`
+        * generate_options:
+            * grammar calls Lookup, get articles
+            * set of articles per form
     * ConjugateVerb
-        * verbs
-        ---
-        * generate_question() -> pronoun, verb
-            * pronouns from self.grammar
-        * generate_answer() -> conjverb
-        * generate_prompt() -> "ich (sein)"
-        * generate_options(n_options=3) # n_options should be set in Options Menu
-            * conjs = set([conjverb(verb, pronoun) for pronoun in pronouns])
-            * random.choices(conjs, n_options)
-    ===
-    * DeclineAdjective
-        * adjectives
-        * init -> g_article = GuessArticle(nouns)
-        ---
-        * generate_question() -> noun, article [der_word, ein_word, ''] , adjective
-            * g_article.generate_question() -> noun, form, case
-            * g_article.generate_answer() -> article
-        * generate_answer() -> conjadj
-            * self.grammar.get_conjadj(adjective, gender, role, article)
-            * grammar decode der_words and ein_words
-        * generate_prompt() -> "eine/unsere (schön) Frau" or "die/solche (schön) Frau" or "(schön) Frau"
-        * generate_options(n_options=3) -> conjadj(adjective, *) for
+        * generate_question: random pronoun (grammar), verb
+        * generate_answer: conjverb
+        * generate_prompt: `"ich (sein)"`
+        * generate_options:
+            * conjverb for all pronouns
+    * ConjugateAdjective
+        * calls ConjugateArticle
+        * generate_question:
+            * conjart.generate_question -> noun, form, case
+            * conjart.generate_answer -> article
+        * generate_answer -> conjadj
+            * grammar decode der_words and ein_words, req. for pattern
+        * generate_prompt: `"eine/unsere (schön) Frau"` or `"die/solche (schön) Frau"` or `"(schön) Frau"`
+        * generate_options:
             * set of representative adjective forms?
                 * nominative-m-der: -e
                 * accusative-m-der: -en
                 * nominative-m-ein: -er
                 * nominative-n-ein: -es
                 * dative-m-'': -em
-    ===
-    * TranslateInSeparables
-    ===
-    * PickSynonyms
+    * TranslatePfVerbs
+        * generate_question: random pfverb
+        * generate_answer: `pfverbs['meaning']`
+        * generate_prompt: `"beginnen"`
+        * generate_options: random meanings
+    * [ ] PickSynonyms: TBD
 
-<!-- have not implemented -->
-       
-* GameView(View): game UI
-    * controller: Controller
-    ---
-    * show_prompt():
-    * show_score():
-    * show_life():
 
-* MenuView(View): menu UI
-    * controller: Controller
-    ---
-    * show_games():
+* [x] MVCs
+    * C
+        * **abstract methods:** run, end
+        * input loop
+    * MenuView, Menu, MenuController: Play or Settings
+    * PlayView, Play, PlayController: show games
+    * SettingsView, Settings, SettingsController: set settings
+    * GameView, Game, GameController: runs the game
+        * GC
+            * Loops generate question, answer, etc.
+            * Check answer
 
-* Controller(ABC):    
-    * run()
-    * end()
-    ===
-    * MenuController(Controller): handle controls of menu
-        * database: Database, view: View
-        ---
-        * run():
-            * load Duolingo, separables into Database
-            * load Grammar
-            * view.show_games()
-            * input loop
-            * GameController(game)
-            * if break, end() 
-        * end():
-    ===
-    * GameController(Controller): handle controls of the game
-    * database: Database, grammar: Grammar, view: View
-    * game: Game, life: int, success: int = 0
-    ---
-    * run(life, game):
-        * while life > 0, G = game(database, grammar)
-        * G.get_answer()
-        * G.get_prompt(), view.show_prompt()
-        * ask for input
-        * check_answer()
-        * if break, end()
-    * end()
-        * view.show_score()
-    * check_answer(guess, answer)
-        * if correct, success += 1
-        
 
-* Options: set game params
-    * lives
-    * n_options for multiple choice
-    * grammar
+* [x] Settings: set game params
+    * [x] lives, n_options for multiple choice
+    * [ ] grammar
         * cases
         * der words
         * ein words
 
 ### 3rd Parties
-* Linguee API
-    * Noun genders
-    
-* `genderdeterminator`
-    * Noun genders
 
-* `pattern de`
-    * 
+* genderdeterminator
+    * gender
+* pattern de
+    * gender
+    * attributive adjective
+    * conjugate verb
+* Linguee API
+    * genders
 
 ## Testing & Security
-* 
+
+### Unit Testing
+
+* [ ] Database: loading, saving
+    * [ ] load_duolingo
+        * no connection
+        * wrong username password
+    * processing - TBD: to be changed for better parsing of nouns
+    * [ ] load_pfverbs
+        * path doesn't exist
+        * empty file
+        * check having column headings: base, prefix, meaning
+    * [ ] save_vocab_json
+        * path doesn't exist
+        * file already exist -> replace
+    * [ ] load_vocab_json
+        * path doesn't exist
+        * json not giving a dict()
+
+* [ ] Grammar: get methods, unexpected inputs, etc.
+    * [ ] get_gender, get_conjart, get_conjverb, get_conjadj
+        * method doesn't have get_ methods
+    * [ ] get_conjarts
+        * empty (form)
+        * check articles
+            * is a nested dict()
+            * having at least form str as key
+        * check form is in der_words and ein_words
+        * check output is a set
+    * [ ] decode_der_ein
+        * typo (form) -> output not None
+
+    * [ ] get_ methods of implementations of Gender(), ConjArt(), ConjVerb(), ConjAdj()
+        * correct
+        * empty
+        * typo
+        * digits
+        * case
+
+    * [ ] **special:** LookUp_Article()
+        * loading
+            * path doesn't exist
+            * json not giving a nested dict()
+
+* Input (MVCs)
+    * [ ] mvc
+        * show_prompt
+        * sep
+        * show_try_again
+        * quit
+        * input_loop
+
+    * [ ] general mvc
+        * controller init
+        * run()
+        * end()
+
+    * [ ] menu
+        * exit_message
+        * run_item
+    * [ ] play
+        * format_options
+        * run_game()
+    * [ ] game
+        * refine_options
+        * load_default
+        * show_check
+        * show_end_score, show_score, show_life
+        * show_name, show_instruction, show_example
+        * check_answer
+        * generate_answer_prompt
+   
+        
+
+* Games
+    * 
+
+* [ ] Settings: set settings
+    * [ ] view
+        * format_options
+        * show_settings_saved
+
+    * [ ] controller
+        * set_setting
+        * update_prompt
+        * input_loop_set_setting
 
 ## Deployment
 
-* GitHub
+* GitHub package?
 
 ## Planning
 
 * Required
     * [x] Functional games
-    * [x] Decently accurate
+    * [x] Decently accurate? grammar
 * Optional
     * [ ] Pluralization
     * [ ] Option to include pfverbs in Conjugate Verbs

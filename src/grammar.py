@@ -21,7 +21,7 @@ class Grammar():
     cases = ['nominative', 'accusative', 'dative', 'genitive']
     der_words = ['der', 'dies', 'jed', 'jen', 'manch', 'solch', 'welch', 'all']
     ein_words = ['ein', 'kein', 'dein', 'sein', 'ihr', 'unser', 'euer', 'Ihr']
-    tenses = ['present']  # past
+    # tenses = ['present']
     conjart_options = None
 
     @staticmethod

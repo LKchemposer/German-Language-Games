@@ -6,7 +6,6 @@ from pattern import de
 class ConjVerb(ABC):
     '''Methods to decline the conjugated form of a verb, given a tense, and pronoun.'''
 
-    @staticmethod
     @abstractmethod
     def get_conjverb():
         pass
