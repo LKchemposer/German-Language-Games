@@ -1,5 +1,4 @@
-
-* 'Try again' messages should be error handling instead
+* refactor format_options, use inheritance?
 
 features
 * plural for article
@@ -15,5 +14,3 @@ del the plural entry
 (noun: , gender:, plural:)
 
 conj noun for plural dative +n (if not .endswith('n')), singular genitive
-
-load sequence
