@@ -2,11 +2,10 @@ import json
 from dataclasses import dataclass, field
 from typing import List
 
+import os
 import duolingo
 import pandas as pd
 from pattern import de
-
-from config import credentials
 
 
 @dataclass
@@ -16,8 +15,10 @@ class Database():
     adjectives: List[str] = field(default_factory=list)
     pfverbs: List[dict] = field(default_factory=list)
 
-    def load_duolingo(self) -> None:
+    def load_duolingo(self, creds_path: str = '../data/config.json') -> None:
         '''Connects to Duolingo.'''
+        with open(creds_path, 'r') as js:
+            credentials = json.load(js)
         username, password = credentials['username'], credentials['password']
         duo = duolingo.Duolingo(username, password)
         self.process_duolingo(duo)
@@ -36,7 +37,8 @@ class Database():
 
         self.verbs = [v for v in df['inf'].unique() if v]
         self.adjectives = df[df['pos'] == 'Adjective']['word'].to_list()
-        self.nouns = df[df['pos'] == 'Noun'][['noun', 'gender']].to_dict('records')
+        self.nouns = df[df['pos'] == 'Noun'][[
+            'noun', 'gender']].to_dict('records')
 
     def load_pfverbs_csv(self, csv_path: str = '../data/pfverbs.csv') -> None:
         '''Loads prefix verbs from a csv.'''
@@ -45,9 +47,13 @@ class Database():
         self.pfverbs = df.to_dict('records')
 
     def save_vocab_json(self, vocab_path: str = '../data/vocab.json') -> None:
-        '''Saves the current vocab list as a json.'''
+        '''Saves the current vocab as a json.'''
         vocab = dict(zip(['nouns', 'verbs', 'adjectives', 'pfverbs'], [
                      self.nouns, self.verbs, self.adjectives, self.pfverbs]))
+
+        if os.path.exists(vocab_path):
+            raise FileExistsError
+
         with open(vocab_path, 'w') as js:
             js.write(json.dumps(vocab, indent=4))
 

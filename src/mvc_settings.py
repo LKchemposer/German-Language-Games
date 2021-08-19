@@ -1,6 +1,7 @@
 from typing import Any
+
 from mvc import Controller, Model, View
-from settings import Setting, Life, MultipleChoice, n_Options
+from settings import Life, MultipleChoice, Setting, n_Options
 
 
 class Settings(Model):

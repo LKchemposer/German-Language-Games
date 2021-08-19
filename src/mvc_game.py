@@ -61,10 +61,9 @@ class Game(Model, ABC):
             self.database.load_vocab_json()
             if not getattr(self.database, pos):
                 method()
+                self.database.save_vocab_json()
         except (FileNotFoundError, FileExistsError):
             method()
-
-        finally:
             self.database.save_vocab_json()
 
 
